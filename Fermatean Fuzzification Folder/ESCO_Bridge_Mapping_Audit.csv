@@ -1,0 +1,24 @@
+Bridge_Type,Anchor,ESCO_Matched_Entity,Match_Similarity,Relation_Tie_Type,Hop_Distance,Hesitation_Base,Final_Modifier
+skill,Education,health education,0.7828549535238474,optional,0,0.2,0.37371603718092206
+skill,Technical Skills and Certifications,apply technical communication skills,0.5574591989974654,optional,2,0.7333333333333334,0.8513442136006759
+skill,Psychological Composite,composite materials,0.6735557526848028,optional,0,0.2,0.46115539785215776
+skill,Adaptability and Time Management,manage time,0.45826706219327873,optional,0,0.2,0.6333863502453769
+skill,Cultural Fit and Creativity,stimulate creativity in the team,0.40773594809581576,essential,1,0.525,0.8063254246544875
+contextual,Accounting and Finance,accounting manager,0.6287761372105642,isco_hierarchy,5,,0.47601988565786313
+contextual,Administrative and Financial Department,department manager,0.5136580183334868,isco_hierarchy,4,,0.5890735853332105
+contextual,Human Factors and Ergonomics,human resources manager,0.34393825037669645,isco_hierarchy,4,,0.7248493996986428
+contextual,Human Resource Management,resource manager,0.5857239943537788,isco_hierarchy,5,,0.511896671371851
+contextual,Information Technology Sector,information manager,0.4775303958171417,isco_hierarchy,4,,0.6179756833462866
+contextual,Internal Audit Department,audit supervisor,0.5169877740083227,isco_hierarchy,5,,0.5691768549930644
+contextual,Legal Department,department manager,0.6290043507505433,isco_hierarchy,4,,0.4967965193995654
+contextual,Off-site Drilling [Offshore Sector],drilling engineer,0.44708723695439706,isco_hierarchy,4,,0.6423302104364823
+contextual,Off-site Drilling [Onshore Sector],drilling engineer,0.44359424720394625,isco_hierarchy,4,,0.645124602236843
+contextual,Off-site Tunnel Boring [Ground Sector],tunnel boring machine operator,0.5690734315235539,isco_hierarchy,4,,0.5447412547811568
+contextual,Off-site Tunnel Boring [Underground Sector],tunnel boring machine operator,0.5582439768007758,isco_hierarchy,4,,0.5534048185593794
+contextual,Project Management,project manager,0.662468230181884,isco_hierarchy,4,,0.47002541585449276
+contextual,Research and Development (R&D) [DSTS],research and development manager,0.6879760323264795,isco_hierarchy,4,,0.44961917413881636
+contextual,Research and Development (R&D) [PQRS],research and development manager,0.6879760323264795,isco_hierarchy,4,,0.44961917413881636
+contextual,Research and Development (R&D) [SPSD],research and development manager,0.6879760323264795,isco_hierarchy,4,,0.44961917413881636
+contextual,Sales and Marketing,marketing manager,0.7024909948411169,isco_hierarchy,5,,0.41459083763240256
+contextual,Supply Chain and Purchasing,supply chain manager,0.7741200878984282,isco_hierarchy,4,,0.3807039296812573
+contextual,Systems and Operations Sector,operations manager,0.49533778414827206,isco_hierarchy,5,,0.5872185132097733

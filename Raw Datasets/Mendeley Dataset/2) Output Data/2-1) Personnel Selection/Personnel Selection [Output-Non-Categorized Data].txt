@@ -1,0 +1,1369 @@
+Calculations for Recruitment Department 1 
+Cycle 1 
+Cluster 1:  SPSD0103 SPSD0120 SPSD0195 SPSD0249 
+Cluster 2:  SPSD0100 
+Cluster 3:  SPSD0018 SPSD0075 SPSD0224 
+Cluster 4:  SPSD0031 SPSD0062 SPSD0137 SPSD0147 
+            Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.2580730 0.07697473 0.7975625     1     2     1 1.333333     1
+[2,] 0.1366411 0.11621878 0.6393449     4     4     4 4.000000     4
+[3,] 0.2395505 0.06004369 0.7845885     2     1     2 1.666667     2
+[4,] 0.1690382 0.10454776 0.6958468     3     3     3 3.000000     3
+The selected clusters are:  1 3 4 
+Cluster Rank 1:  SPSD0103 SPSD0120 SPSD0195 SPSD0249 
+Cluster Rank 2:  SPSD0018 SPSD0075 SPSD0224 
+Cluster Rank 3:  SPSD0031 SPSD0062 SPSD0137 SPSD0147 
+Cycle 2 
+Cluster 1:  SPSD0103 SPSD0120 SPSD0195 SPSD0249 
+Cluster 2:  SPSD0018 SPSD0075 SPSD0224 
+Cluster 3:  SPSD0031 SPSD0062 
+Cluster 4:  SPSD0137 SPSD0147 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.19888656 0.06046655 0.7250426     2     2     2  2     2
+[2,] 0.33765824 0.04165473 0.9192566     1     1     1  1     1
+[3,] 0.13345383 0.14609395 0.6022237     3     3     3  3     3
+[4,] 0.06019368 0.17531274 0.4736883     4     4     4  4     4
+The selected clusters are:  2 1 3 
+Cluster Rank 1:  SPSD0018 SPSD0075 SPSD0224 
+Cluster Rank 2:  SPSD0103 SPSD0120 SPSD0195 SPSD0249 
+Cluster Rank 3:  SPSD0031 SPSD0062 
+Cycle 3 
+Cluster 1:  SPSD0075 
+Cluster 2:  SPSD0018 SPSD0224 
+Cluster 3:  SPSD0031 SPSD0062 
+Cluster 4:  SPSD0103 SPSD0120 SPSD0195 SPSD0249 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.07784842 0.15954092 0.4793894     4     4     4 4.000000     4
+[2,] 0.32219528 0.04116347 0.9152049     1     1     1 1.000000     1
+[3,] 0.18859776 0.09711187 0.7101047     3     2     3 2.666667     3
+[4,] 0.19746942 0.13078520 0.7458937     2     3     2 2.333333     2
+The selected clusters are:  2 4 3 
+Cluster Rank 1:  SPSD0018 SPSD0224 
+Cluster Rank 2:  SPSD0103 SPSD0120 SPSD0195 SPSD0249 
+Cluster Rank 3:  SPSD0031 SPSD0062 
+     Rcrtmntlvl RcrtmntCd  RcrtmntDprtmmt           Yi                   Zi                    Ui                  rnkYi rnkZi
+[1,] "1"        "SPSD0018" "Accounting and Finance" "0.0384080109542864" "0.00731722222293238" "0.296685177446558" "2"   "2"  
+[2,] "1"        "SPSD0031" "Accounting and Finance" "0.0351020547459087" "0.0104531746041891"  "0.277037456466342" "3"   "3"  
+[3,] "1"        "SPSD0062" "Accounting and Finance" "0.0229083235644151" "0.0119364281995343"  "0.223688919233975" "6"   "4"  
+[4,] "1"        "SPSD0103" "Accounting and Finance" "0.0294712431431163" "0.0119364281995343"  "0.257218524863309" "4"   "5"  
+[5,] "1"        "SPSD0120" "Accounting and Finance" "0.0478265009580899" "0.00467739159089537" "0.32664973231146"  "1"   "1"  
+[6,] "1"        "SPSD0195" "Accounting and Finance" "0.0187297748573664" "0.017052040285049"   "0.199011354726036" "8"   "7"  
+[7,] "1"        "SPSD0224" "Accounting and Finance" "0.0251650662579842" "0.0135891269854459"  "0.230534569669462" "5"   "6"  
+[8,] "1"        "SPSD0249" "Accounting and Finance" "0.0205721041356207" "0.017052040285049"   "0.211645687649249" "7"   "8"  
+     rnkUi DR                 rnkDR
+[1,] "2"   "2"                "2"  
+[2,] "3"   "3"                "3"  
+[3,] "6"   "5.33333333333333" "5"  
+[4,] "4"   "4.33333333333333" "4"  
+[5,] "1"   "1"                "1"  
+[6,] "8"   "7.66666666666667" "8"  
+[7,] "5"   "5.33333333333333" "6"  
+[8,] "7"   "7.33333333333333" "7"  
+Your final results for Recruitment Department 1 are as follows:
+SPSD0120 SPSD0018 SPSD0031 SPSD0103 
+[1] 120  18  31 103
+[1] "#############################################################################"
+Calculations for Recruitment Department 2 
+Cycle 1 
+Cluster 1:  SPSD0006 SPSD0030 SPSD0081 SPSD0237 
+Cluster 2:  SPSD0016 SPSD0027 SPSD0141 SPSD0151 SPSD0246 
+Cluster 3:  SPSD0043 SPSD0161 SPSD0209 
+Cluster 4:  SPSD0003 SPSD0104 SPSD0118 SPSD0185 SPSD0196 SPSD0221 SPSD0223 SPSD0261 SPSD0273 SPSD0293 
+            Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.1286188 0.12462684 0.5931230     3     2     3 2.666667     3
+[2,] 0.3324252 0.03870721 0.9306695     1     1     1 1.000000     1
+[3,] 0.1185078 0.15011869 0.5834747     4     4     4 4.000000     4
+[4,] 0.2076126 0.12493885 0.7584973     2     3     2 2.333333     2
+The selected clusters are:  2 4 1 
+Cluster Rank 1:  SPSD0016 SPSD0027 SPSD0141 SPSD0151 SPSD0246 
+Cluster Rank 2:  SPSD0003 SPSD0104 SPSD0118 SPSD0185 SPSD0196 SPSD0221 SPSD0223 SPSD0261 SPSD0273 SPSD0293 
+Cluster Rank 3:  SPSD0006 SPSD0030 SPSD0081 SPSD0237 
+Cycle 2 
+Cluster 1:  SPSD0006 SPSD0081 SPSD0104 
+Cluster 2:  SPSD0030 SPSD0237 
+Cluster 3:  SPSD0016 SPSD0027 SPSD0141 SPSD0151 SPSD0246 
+Cluster 4:  SPSD0003 SPSD0118 SPSD0185 SPSD0196 SPSD0221 SPSD0223 SPSD0261 SPSD0273 SPSD0293 
+            Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.1303812 0.10249965 0.5941413     4     3     4 3.666667     4
+[2,] 0.1761582 0.08351823 0.7171616     3     2     3 2.666667     3
+[3,] 0.2553267 0.06672872 0.8156079     1     1     2 1.333333     1
+[4,] 0.2551617 0.13502869 0.8198632     2     4     1 2.333333     2
+The selected clusters are:  3 4 2 
+Cluster Rank 1:  SPSD0016 SPSD0027 SPSD0141 SPSD0151 SPSD0246 
+Cluster Rank 2:  SPSD0003 SPSD0118 SPSD0185 SPSD0196 SPSD0221 SPSD0223 SPSD0261 SPSD0273 SPSD0293 
+Cluster Rank 3:  SPSD0030 SPSD0237 
+Cycle 3 
+Cluster 1:  SPSD0151 SPSD0196 SPSD0223 SPSD0261 SPSD0293 
+Cluster 2:  SPSD0003 SPSD0118 SPSD0185 SPSD0221 SPSD0273 
+Cluster 3:  SPSD0030 SPSD0237 
+Cluster 4:  SPSD0016 SPSD0027 SPSD0141 SPSD0246 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.16640549 0.11257581 0.6699564     2     2     2 2.000000     2
+[2,] 0.37090409 0.07490873 0.9577600     1     1     1 1.000000     1
+[3,] 0.08882099 0.19942000 0.5069911     3     4     4 3.666667     4
+[4,] 0.07965005 0.18012129 0.5325433     4     3     3 3.333333     3
+The selected clusters are:  2 1 4 
+Cluster Rank 1:  SPSD0003 SPSD0118 SPSD0185 SPSD0221 SPSD0273 
+Cluster Rank 2:  SPSD0151 SPSD0196 SPSD0223 SPSD0261 SPSD0293 
+Cluster Rank 3:  SPSD0016 SPSD0027 SPSD0141 SPSD0246 
+Cycle 4 
+Cluster 1:  SPSD0141 SPSD0151 
+Cluster 2:  SPSD0003 SPSD0118 SPSD0185 SPSD0221 SPSD0273 
+Cluster 3:  SPSD0016 SPSD0027 SPSD0246 
+Cluster 4:  SPSD0196 SPSD0223 SPSD0261 SPSD0293 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.06973404 0.21491286 0.4649324     4     4     4  4     4
+[2,] 0.38917216 0.08445329 0.9742273     1     1     1  1     1
+[3,] 0.13760049 0.18371584 0.6107828     2     2     2  2     2
+[4,] 0.07812487 0.19411484 0.5416996     3     3     3  3     3
+The selected clusters are:  2 3 4 
+Cluster Rank 1:  SPSD0003 SPSD0118 SPSD0185 SPSD0221 SPSD0273 
+Cluster Rank 2:  SPSD0016 SPSD0027 SPSD0246 
+Cluster Rank 3:  SPSD0196 SPSD0223 SPSD0261 SPSD0293 
+Cycle 5 
+Cluster 1:  SPSD0196 SPSD0223 SPSD0261 SPSD0293 
+Cluster 2:  SPSD0118 SPSD0221 SPSD0273 
+Cluster 3:  SPSD0016 SPSD0027 SPSD0246 
+Cluster 4:  SPSD0003 SPSD0185 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.18677430 0.05572926 0.7053737     2     2     2  2     2
+[2,] 0.31763813 0.02610326 0.8943190     1     1     1  1     1
+[3,] 0.18491057 0.09752620 0.6938994     3     3     3  3     3
+[4,] 0.05526723 0.16718777 0.4608381     4     4     4  4     4
+The selected clusters are:  2 1 3 
+Cluster Rank 1:  SPSD0118 SPSD0221 SPSD0273 
+Cluster Rank 2:  SPSD0196 SPSD0223 SPSD0261 SPSD0293 
+Cluster Rank 3:  SPSD0016 SPSD0027 SPSD0246 
+Cycle 6 
+Cluster 1:  SPSD0261 SPSD0293 
+Cluster 2:  SPSD0118 SPSD0221 SPSD0273 
+Cluster 3:  SPSD0196 SPSD0223 
+Cluster 4:  SPSD0016 SPSD0027 SPSD0246 
+             Yi        Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.11288176 0.1627986 0.5660577     3     2     4 3.000000     3
+[2,] 0.37129883 0.0465800 0.9584153     1     1     1 1.000000     1
+[3,] 0.14587975 0.1627986 0.6278774     2     3     2 2.333333     2
+[4,] 0.09971853 0.1627986 0.5849147     4     4     3 3.666667     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0118 SPSD0221 SPSD0273 
+Cluster Rank 2:  SPSD0196 SPSD0223 
+Cluster Rank 3:  SPSD0261 SPSD0293 
+     Rcrtmntlvl RcrtmntCd  RcrtmntDprtmmt                            Yi                   Zi                   
+[1,] "2"        "SPSD0118" "Administrative and Financial Department" "0.0186015623971952" "0.017052040285049"  
+[2,] "2"        "SPSD0196" "Administrative and Financial Department" "0.0289190062186464" "0.00731722222293238"
+[3,] "2"        "SPSD0221" "Administrative and Financial Department" "0.0313271785323023" "0.00731722222293238"
+[4,] "2"        "SPSD0223" "Administrative and Financial Department" "0.0246012400752335" "0.0119364281995343" 
+[5,] "2"        "SPSD0261" "Administrative and Financial Department" "0.0294566597312546" "0.0104531746041891" 
+[6,] "2"        "SPSD0273" "Administrative and Financial Department" "0.0243078380713832" "0.0119364281995343" 
+[7,] "2"        "SPSD0293" "Administrative and Financial Department" "0.0195189513556304" "0.017052040285049"  
+     Ui                  rnkYi rnkZi rnkUi DR                 rnkDR
+[1,] "0.206471115262772" "7"   "6"   "7"   "6.66666666666667" "7"  
+[2,] "0.248776248653126" "3"   "1"   "3"   "2.33333333333333" "2"  
+[3,] "0.264195126702332" "1"   "2"   "1"   "1.33333333333333" "1"  
+[4,] "0.237708563655508" "4"   "4"   "4"   "4"                "4"  
+[5,] "0.25974530084108"  "2"   "3"   "2"   "2.33333333333333" "3"  
+[6,] "0.235615340837495" "5"   "5"   "5"   "5"                "5"  
+[7,] "0.209777267920626" "6"   "7"   "6"   "6.33333333333333" "6"  
+Your final results for Recruitment Department 2 are as follows:
+SPSD0221 SPSD0196 SPSD0261 SPSD0223 
+[1] 221 196 261 223
+[1] "#############################################################################"
+Calculations for Recruitment Department 3 
+Cycle 1 
+Cluster 1:  SPSD0055 SPSD0094 SPSD0242 
+Cluster 2:  SPSD0045 SPSD0072 SPSD0073 
+Cluster 3:  SPSD0127 SPSD0157 SPSD0172 SPSD0182 SPSD0192 SPSD0201 SPSD0276 SPSD0286 
+Cluster 4:  SPSD0077 SPSD0136 SPSD0263 
+            Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.1030339 0.15123754 0.5368153     3     3     3 3.000000     3
+[2,] 0.2265957 0.08066002 0.7674234     2     1     2 1.666667     2
+[3,] 0.3260037 0.10102955 0.8965939     1     2     1 1.333333     1
+[4,] 0.0574464 0.18148505 0.4683535     4     4     4 4.000000     4
+The selected clusters are:  3 2 1 
+Cluster Rank 1:  SPSD0127 SPSD0157 SPSD0172 SPSD0182 SPSD0192 SPSD0201 SPSD0276 SPSD0286 
+Cluster Rank 2:  SPSD0045 SPSD0072 SPSD0073 
+Cluster Rank 3:  SPSD0055 SPSD0094 SPSD0242 
+Cycle 2 
+Cluster 1:  SPSD0045 SPSD0073 SPSD0094 
+Cluster 2:  SPSD0055 SPSD0242 
+Cluster 3:  SPSD0072 
+Cluster 4:  SPSD0127 SPSD0157 SPSD0172 SPSD0182 SPSD0192 SPSD0201 SPSD0276 SPSD0286 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.16981023 0.10139709 0.6690038     3     2     3 2.666667     3
+[2,] 0.22823759 0.07725493 0.8075248     2     1     2 1.666667     1
+[3,] 0.06799982 0.18830889 0.4691806     4     4     4 4.000000     4
+[4,] 0.30457497 0.16228223 0.8788895     1     3     1 1.666667     2
+The selected clusters are:  2 4 1 
+Cluster Rank 1:  SPSD0055 SPSD0242 
+Cluster Rank 2:  SPSD0127 SPSD0157 SPSD0172 SPSD0182 SPSD0192 SPSD0201 SPSD0276 SPSD0286 
+Cluster Rank 3:  SPSD0045 SPSD0073 SPSD0094 
+Cycle 3 
+Cluster 1:  SPSD0127 SPSD0157 SPSD0172 SPSD0182 SPSD0192 SPSD0201 SPSD0276 SPSD0286 
+Cluster 2:  SPSD0094 
+Cluster 3:  SPSD0045 SPSD0073 
+Cluster 4:  SPSD0055 SPSD0242 
+            Yi        Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.3677330 0.1529703 0.9451916     1     1     1  1     1
+[2,] 0.1057595 0.2262920 0.5673755     3     3     3  3     3
+[3,] 0.1292641 0.2182102 0.5878877     2     2     2  2     2
+[4,] 0.0694547 0.2424557 0.4624120     4     4     4  4     4
+The selected clusters are:  1 3 2 
+Cluster Rank 1:  SPSD0127 SPSD0157 SPSD0172 SPSD0182 SPSD0192 SPSD0201 SPSD0276 SPSD0286 
+Cluster Rank 2:  SPSD0045 SPSD0073 
+Cluster Rank 3:  SPSD0094 
+Cycle 4 
+Cluster 1:  SPSD0045 SPSD0073 
+Cluster 2:  SPSD0127 SPSD0182 
+Cluster 3:  SPSD0094 
+Cluster 4:  SPSD0157 SPSD0172 SPSD0192 SPSD0201 SPSD0276 SPSD0286 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.13860065 0.10710030 0.6131339     3     2     3 2.666667     3
+[2,] 0.28068357 0.05734616 0.8765273     1     1     1 1.000000     1
+[3,] 0.08354713 0.16065046 0.5092718     4     4     4 4.000000     4
+[4,] 0.27644896 0.15411743 0.8460712     2     3     2 2.333333     2
+The selected clusters are:  2 4 1 
+Cluster Rank 1:  SPSD0127 SPSD0182 
+Cluster Rank 2:  SPSD0157 SPSD0172 SPSD0192 SPSD0201 SPSD0276 SPSD0286 
+Cluster Rank 3:  SPSD0045 SPSD0073 
+Cycle 5 
+Cluster 1:  SPSD0127 SPSD0182 
+Cluster 2:  SPSD0045 SPSD0073 
+Cluster 3:  SPSD0157 SPSD0201 SPSD0286 
+Cluster 4:  SPSD0172 SPSD0192 SPSD0276 
+            Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.1345934 0.08874286 0.6043343     3     3     4 3.333333     3
+[2,] 0.2893959 0.03377107 0.8639476     1     1     1 1.000000     1
+[3,] 0.2480465 0.03755973 0.7939155     2     2     2 2.000000     2
+[4,] 0.1218250 0.08874286 0.6244664     4     4     3 3.666667     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0045 SPSD0073 
+Cluster Rank 2:  SPSD0157 SPSD0201 SPSD0286 
+Cluster Rank 3:  SPSD0127 SPSD0182 
+     Rcrtmntlvl RcrtmntCd  RcrtmntDprtmmt                 Yi                   Zi                   Ui                  rnkYi
+[1,] "3"        "SPSD0045" "Human Factors and Ergonomics" "0.0284161683597084" "0.0135891269854459" "0.247351378325891" "2"  
+[2,] "3"        "SPSD0073" "Human Factors and Ergonomics" "0.0212405443735782" "0.0135891269854459" "0.216547730546652" "5"  
+[3,] "3"        "SPSD0127" "Human Factors and Ergonomics" "0.0208055799267236" "0.0135891269854459" "0.22111416288277"  "6"  
+[4,] "3"        "SPSD0157" "Human Factors and Ergonomics" "0.0198331061596486" "0.017052040285049"  "0.210309064576565" "7"  
+[5,] "3"        "SPSD0182" "Human Factors and Ergonomics" "0.025702868648029"  "0.0119364281995343" "0.241912808571351" "3"  
+[6,] "3"        "SPSD0201" "Human Factors and Ergonomics" "0.0246672644197426" "0.0119364281995343" "0.235903051987207" "4"  
+[7,] "3"        "SPSD0286" "Human Factors and Ergonomics" "0.0294590276490729" "0.0119364281995343" "0.258150924827038" "1"  
+     rnkZi rnkUi DR                 rnkDR
+[1,] "4"   "2"   "2.66666666666667" "3"  
+[2,] "5"   "6"   "5.33333333333333" "5"  
+[3,] "6"   "5"   "5.66666666666667" "6"  
+[4,] "7"   "7"   "7"                "7"  
+[5,] "1"   "3"   "2.33333333333333" "2"  
+[6,] "2"   "4"   "3.33333333333333" "4"  
+[7,] "3"   "1"   "1.66666666666667" "1"  
+Your final results for Recruitment Department 3 are as follows:
+SPSD0286 SPSD0182 SPSD0045 SPSD0201 
+[1] 286 182  45 201
+[1] "#############################################################################"
+Calculations for Recruitment Department 4 
+Cycle 1 
+Cluster 1:  SPSD0116 SPSD0239 
+Cluster 2:  SPSD0021 SPSD0071 SPSD0132 SPSD0181 
+Cluster 3:  SPSD0056 SPSD0096 SPSD0210 SPSD0247 SPSD0259 
+Cluster 4:  SPSD0191 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.07070861 0.17747544 0.4731095     3     3     3  3     3
+[2,] 0.33263955 0.08735781 0.9032160     1     1     1  1     1
+[3,] 0.23000261 0.10474387 0.7691945     2     2     2  2     2
+[4,] 0.01759822 0.22377339 0.3090941     4     4     4  4     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0021 SPSD0071 SPSD0132 SPSD0181 
+Cluster Rank 2:  SPSD0056 SPSD0096 SPSD0210 SPSD0247 SPSD0259 
+Cluster Rank 3:  SPSD0116 SPSD0239 
+Cycle 2 
+Cluster 1:  SPSD0116 SPSD0239 
+Cluster 2:  SPSD0056 SPSD0247 
+Cluster 3:  SPSD0096 SPSD0210 SPSD0259 
+Cluster 4:  SPSD0021 SPSD0071 SPSD0132 SPSD0181 
+            Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.1324754 0.08442302 0.5986880     4     3     4 3.666667     4
+[2,] 0.2781533 0.03067409 0.8558757     1     1     1 1.000000     1
+[3,] 0.2406658 0.04104676 0.7864980     2     2     2 2.000000     2
+[4,] 0.1654508 0.08847145 0.6975403     3     4     3 3.333333     3
+The selected clusters are:  2 3 4 
+Cluster Rank 1:  SPSD0056 SPSD0247 
+Cluster Rank 2:  SPSD0096 SPSD0210 SPSD0259 
+Cluster Rank 3:  SPSD0021 SPSD0071 SPSD0132 SPSD0181 
+Cycle 3 
+Cluster 1:  SPSD0071 SPSD0181 
+Cluster 2:  SPSD0021 SPSD0132 
+Cluster 3:  SPSD0056 SPSD0247 
+Cluster 4:  SPSD0096 SPSD0210 SPSD0259 
+            Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.1503591 0.09733056 0.6346715     3     2     4 3.000000     3
+[2,] 0.3213077 0.01975437 0.9073172     1     1     1 1.000000     1
+[3,] 0.1879189 0.09733056 0.7039846     2     3     2 2.333333     2
+[4,] 0.1396711 0.09733056 0.6558142     4     4     3 3.666667     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0021 SPSD0132 
+Cluster Rank 2:  SPSD0056 SPSD0247 
+Cluster Rank 3:  SPSD0071 SPSD0181 
+     Rcrtmntlvl RcrtmntCd  RcrtmntDprtmmt              Yi                   Zi                    Ui                  rnkYi
+[1,] "4"        "SPSD0021" "Human Resource Management" "0.0308728548515178" "0.00731722222293238" "0.263469906429374" "2"  
+[2,] "4"        "SPSD0056" "Human Resource Management" "0.0257661914892991" "0.0119364281995343"  "0.240172155614933" "5"  
+[3,] "4"        "SPSD0071" "Human Resource Management" "0.0335228242038119" "0.00731722222293238" "0.275033075076223" "1"  
+[4,] "4"        "SPSD0132" "Human Resource Management" "0.0277397766507393" "0.0119364281995343"  "0.250525825900332" "4"  
+[5,] "4"        "SPSD0181" "Human Resource Management" "0.0289979873821508" "0.0135891269854459"  "0.246365732366239" "3"  
+[6,] "4"        "SPSD0247" "Human Resource Management" "0.0219263297497519" "0.0119364281995343"  "0.219885596906227" "6"  
+     rnkZi rnkUi DR                 rnkDR
+[1,] "1"   "2"   "1.66666666666667" "2"  
+[2,] "3"   "5"   "4.33333333333333" "4"  
+[3,] "2"   "1"   "1.33333333333333" "1"  
+[4,] "4"   "3"   "3.66666666666667" "3"  
+[5,] "6"   "4"   "4.33333333333333" "5"  
+[6,] "5"   "6"   "5.66666666666667" "6"  
+Your final results for Recruitment Department 4 are as follows:
+SPSD0071 SPSD0021 SPSD0132 SPSD0056 
+[1]  71  21 132  56
+[1] "#############################################################################"
+Calculations for Recruitment Department 5 
+Cycle 1 
+Cluster 1:  SPSD0126 SPSD0190 SPSD0279 
+Cluster 2:  SPSD0010 SPSD0022 SPSD0078 SPSD0138 SPSD0243 
+Cluster 3:  SPSD0034 SPSD0053 SPSD0060 SPSD0099 SPSD0106 SPSD0160 SPSD0166 SPSD0176 
+Cluster 4:  SPSD0002 SPSD0241 SPSD0267 SPSD0268 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.08098376 0.14499990 0.4916819     3     3     3  3     3
+[2,] 0.30299712 0.04453145 0.8699051     1     1     1  1     1
+[3,] 0.26779221 0.08843821 0.8212118     2     2     2  2     2
+[4,] 0.05880823 0.15320744 0.4836933     4     4     4  4     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0010 SPSD0022 SPSD0078 SPSD0138 SPSD0243 
+Cluster Rank 2:  SPSD0034 SPSD0053 SPSD0060 SPSD0099 SPSD0106 SPSD0160 SPSD0166 SPSD0176 
+Cluster Rank 3:  SPSD0126 SPSD0190 SPSD0279 
+Cycle 2 
+Cluster 1:  SPSD0190 SPSD0279 
+Cluster 2:  SPSD0034 SPSD0053 SPSD0060 SPSD0099 SPSD0106 SPSD0160 SPSD0166 SPSD0176 
+Cluster 3:  SPSD0010 SPSD0022 SPSD0078 SPSD0138 SPSD0243 
+Cluster 4:  SPSD0126 
+              Yi        Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.039958008 0.2493869 0.3788638     3     3     3  3     3
+[2,] 0.385755897 0.1415705 0.9659016     1     1     1  1     1
+[3,] 0.139922744 0.1881737 0.6159673     2     2     2  2     2
+[4,] 0.009270674 0.2765927 0.2475211     4     4     4  4     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0034 SPSD0053 SPSD0060 SPSD0099 SPSD0106 SPSD0160 SPSD0166 SPSD0176 
+Cluster Rank 2:  SPSD0010 SPSD0022 SPSD0078 SPSD0138 SPSD0243 
+Cluster Rank 3:  SPSD0190 SPSD0279 
+Cycle 3 
+Cluster 1:  SPSD0053 SPSD0060 SPSD0106 SPSD0160 SPSD0176 
+Cluster 2:  SPSD0010 SPSD0078 SPSD0243 
+Cluster 3:  SPSD0022 SPSD0034 SPSD0099 SPSD0138 SPSD0166 
+Cluster 4:  SPSD0190 SPSD0279 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.19294136 0.05777464 0.7121622     3     2     3 2.666667     3
+[2,] 0.26176364 0.03917080 0.8226433     1     1     1 1.000000     1
+[3,] 0.24795789 0.06212326 0.7899381     2     3     2 2.333333     2
+[4,] 0.04541459 0.13871202 0.4239039     4     4     4 4.000000     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0010 SPSD0078 SPSD0243 
+Cluster Rank 2:  SPSD0022 SPSD0034 SPSD0099 SPSD0138 SPSD0166 
+Cluster Rank 3:  SPSD0053 SPSD0060 SPSD0106 SPSD0160 SPSD0176 
+Cycle 4 
+Cluster 1:  SPSD0060 SPSD0176 
+Cluster 2:  SPSD0010 SPSD0078 SPSD0243 
+Cluster 3:  SPSD0022 SPSD0034 SPSD0099 SPSD0138 SPSD0166 
+Cluster 4:  SPSD0053 SPSD0106 SPSD0160 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.08890158 0.13208056 0.5092217     3     3     4 3.333333     3
+[2,] 0.29508642 0.04363287 0.8621839     1     1     1 1.000000     1
+[3,] 0.27302461 0.08216511 0.8279067     2     2     2 2.000000     2
+[4,] 0.07475187 0.13208056 0.5261853     4     4     3 3.666667     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0010 SPSD0078 SPSD0243 
+Cluster Rank 2:  SPSD0022 SPSD0034 SPSD0099 SPSD0138 SPSD0166 
+Cluster Rank 3:  SPSD0060 SPSD0176 
+Cycle 5 
+Cluster 1:  SPSD0010 SPSD0078 SPSD0243 
+Cluster 2:  SPSD0022 SPSD0138 
+Cluster 3:  SPSD0034 SPSD0099 SPSD0166 
+Cluster 4:  SPSD0060 SPSD0176 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.18598783 0.03030568 0.6988492     3     1     3 2.333333     2
+[2,] 0.27595300 0.03377107 0.8435498     1     2     1 1.333333     1
+[3,] 0.23699904 0.04275381 0.7751712     2     3     2 2.333333     3
+[4,] 0.07400017 0.12122274 0.5148130     4     4     4 4.000000     4
+The selected clusters are:  2 1 3 
+Cluster Rank 1:  SPSD0022 SPSD0138 
+Cluster Rank 2:  SPSD0010 SPSD0078 SPSD0243 
+Cluster Rank 3:  SPSD0034 SPSD0099 SPSD0166 
+     Rcrtmntlvl RcrtmntCd  RcrtmntDprtmmt                  Yi                   Zi                    Ui                  rnkYi
+[1,] "5"        "SPSD0010" "Information Technology Sector" "0.0340857325144458" "0.00731722222293238" "0.277478758274893" "2"  
+[2,] "5"        "SPSD0022" "Information Technology Sector" "0.0147723657137772" "0.017052040285049"   "0.184610130280457" "7"  
+[3,] "5"        "SPSD0034" "Information Technology Sector" "0.025702868648029"  "0.0119364281995343"  "0.241912808571351" "6"  
+[4,] "5"        "SPSD0078" "Information Technology Sector" "0.0344303817523035" "0.00731722222293238" "0.279752132979289" "1"  
+[5,] "5"        "SPSD0099" "Information Technology Sector" "0.0315209931009858" "0.00731722222293238" "0.265202147411396" "3"  
+[6,] "5"        "SPSD0138" "Information Technology Sector" "0.0263844532049647" "0.0135891269854459"  "0.235580721650449" "5"  
+[7,] "5"        "SPSD0166" "Information Technology Sector" "0.0278755723582968" "0.0119364281995343"  "0.258256805381611" "4"  
+[8,] "5"        "SPSD0243" "Information Technology Sector" "0.013835440340414"  "0.017052040285049"   "0.185246789205431" "8"  
+     rnkZi rnkUi DR                 rnkDR
+[1,] "1"   "2"   "1.66666666666667" "2"  
+[2,] "7"   "8"   "7.33333333333333" "7"  
+[3,] "4"   "5"   "5"                "5"  
+[4,] "2"   "1"   "1.33333333333333" "1"  
+[5,] "3"   "3"   "3"                "3"  
+[6,] "6"   "6"   "5.66666666666667" "6"  
+[7,] "5"   "4"   "4.33333333333333" "4"  
+[8,] "8"   "7"   "7.66666666666667" "8"  
+Your final results for Recruitment Department 5 are as follows:
+SPSD0078 SPSD0010 SPSD0099 SPSD0166 
+[1]  78  10  99 166
+[1] "#############################################################################"
+Calculations for Recruitment Department 6 
+Cycle 1 
+Cluster 1:  SPSD0079 SPSD0125 SPSD0200 SPSD0284 
+Cluster 2:  SPSD0052 SPSD0058 
+Cluster 3:  SPSD0155 SPSD0173 SPSD0207 SPSD0272 SPSD0282 
+Cluster 4:  SPSD0063 SPSD0107 SPSD0159 SPSD0225 SPSD0288 
+            Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.1865778 0.03859857 0.6912621     3     1     3 2.333333     3
+[2,] 0.1976088 0.05575349 0.7400023     2     2     2 2.000000     2
+[3,] 0.2819625 0.06057597 0.8415840     1     3     1 1.666667     1
+[4,] 0.1458224 0.08331969 0.6619607     4     4     4 4.000000     4
+The selected clusters are:  3 2 1 
+Cluster Rank 1:  SPSD0155 SPSD0173 SPSD0207 SPSD0272 SPSD0282 
+Cluster Rank 2:  SPSD0052 SPSD0058 
+Cluster Rank 3:  SPSD0079 SPSD0125 SPSD0200 SPSD0284 
+Cycle 2 
+Cluster 1:  SPSD0052 SPSD0058 
+Cluster 2:  SPSD0155 SPSD0173 SPSD0207 SPSD0272 SPSD0282 
+Cluster 3:  SPSD0079 SPSD0125 
+Cluster 4:  SPSD0200 SPSD0284 
+             Yi        Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.06892729 0.2270745 0.4697340     3     2     3 2.666667     3
+[2,] 0.40153318 0.1041361 0.9842887     1     1     1 1.000000     1
+[3,] 0.09583169 0.2270745 0.5210341     2     3     2 2.333333     2
+[4,] 0.03524268 0.2490494 0.4098273     4     4     4 4.000000     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0155 SPSD0173 SPSD0207 SPSD0272 SPSD0282 
+Cluster Rank 2:  SPSD0079 SPSD0125 
+Cluster Rank 3:  SPSD0052 SPSD0058 
+Cycle 3 
+Cluster 1:  SPSD0155 SPSD0173 SPSD0207 SPSD0282 
+Cluster 2:  SPSD0052 SPSD0058 
+Cluster 3:  SPSD0079 SPSD0125 
+Cluster 4:  SPSD0272 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.24742891 0.10242730 0.7968440     2     2     2  2     2
+[2,] 0.28281558 0.03773637 0.8530287     1     1     1  1     1
+[3,] 0.16722088 0.10799572 0.6618623     3     3     3  3     3
+[4,] 0.03933533 0.17999287 0.3898366     4     4     4  4     4
+The selected clusters are:  2 1 3 
+Cluster Rank 1:  SPSD0052 SPSD0058 
+Cluster Rank 2:  SPSD0155 SPSD0173 SPSD0207 SPSD0282 
+Cluster Rank 3:  SPSD0079 SPSD0125 
+     Rcrtmntlvl RcrtmntCd  RcrtmntDprtmmt              Yi                   Zi                    Ui                  rnkYi
+[1,] "6"        "SPSD0052" "Internal Audit Department" "0.0326657095740688" "0.00731722222293238" "0.274423703210979" "3"  
+[2,] "6"        "SPSD0058" "Internal Audit Department" "0.0380462237594105" "0.00731722222293238" "0.294725555013321" "2"  
+[3,] "6"        "SPSD0079" "Internal Audit Department" "0.0165509716005661" "0.017052040285049"   "0.192397996762277" "8"  
+[4,] "6"        "SPSD0125" "Internal Audit Department" "0.0204742818593993" "0.0119364281995343"  "0.224371373807236" "6"  
+[5,] "6"        "SPSD0155" "Internal Audit Department" "0.0256010419115773" "0.0104531746041891"  "0.247530206028431" "5"  
+[6,] "6"        "SPSD0173" "Internal Audit Department" "0.0381952719654792" "0.00731722222293238" "0.290890321034449" "1"  
+[7,] "6"        "SPSD0207" "Internal Audit Department" "0.0260781960940303" "0.0119364281995343"  "0.245922810337955" "4"  
+[8,] "6"        "SPSD0282" "Internal Audit Department" "0.019599061377353"  "0.017052040285049"   "0.210096183058034" "7"  
+     rnkZi rnkUi DR                 rnkDR
+[1,] "1"   "3"   "2.33333333333333" "3"  
+[2,] "2"   "1"   "1.66666666666667" "1"  
+[3,] "7"   "8"   "7.66666666666667" "8"  
+[4,] "5"   "6"   "5.66666666666667" "6"  
+[5,] "4"   "4"   "4.33333333333333" "4"  
+[6,] "3"   "2"   "2"                "2"  
+[7,] "6"   "5"   "5"                "5"  
+[8,] "8"   "7"   "7.33333333333333" "7"  
+Your final results for Recruitment Department 6 are as follows:
+SPSD0058 SPSD0173 SPSD0052 SPSD0155 
+[1]  58 173  52 155
+[1] "#############################################################################"
+Calculations for Recruitment Department 7 
+Cycle 1 
+Cluster 1:  SPSD0044 SPSD0202 SPSD0217 
+Cluster 2:  SPSD0008 SPSD0214 
+Cluster 3:  SPSD0143 
+Cluster 4:  SPSD0024 SPSD0033 SPSD0036 SPSD0113 SPSD0219 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.20471880 0.05150645 0.7232681     3     2     3 2.666667     2
+[2,] 0.28215377 0.04613948 0.8730247     1     1     1 1.000000     1
+[3,] 0.08431166 0.13662496 0.5072368     4     3     4 3.666667     4
+[4,] 0.22601327 0.13767799 0.7809544     2     4     2 2.666667     3
+The selected clusters are:  2 1 4 
+Cluster Rank 1:  SPSD0008 SPSD0214 
+Cluster Rank 2:  SPSD0044 SPSD0202 SPSD0217 
+Cluster Rank 3:  SPSD0024 SPSD0033 SPSD0036 SPSD0113 SPSD0219 
+Cycle 2 
+Cluster 1:  SPSD0044 SPSD0202 SPSD0217 
+Cluster 2:  SPSD0008 SPSD0214 
+Cluster 3:  SPSD0024 SPSD0033 SPSD0036 
+Cluster 4:  SPSD0113 SPSD0219 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.18598783 0.03030568 0.6988492     3     1     3 2.333333     2
+[2,] 0.27595300 0.03377107 0.8435498     1     2     1 1.333333     1
+[3,] 0.23699904 0.04275381 0.7751712     2     3     2 2.333333     3
+[4,] 0.07400017 0.12122274 0.5148130     4     4     4 4.000000     4
+The selected clusters are:  2 1 3 
+Cluster Rank 1:  SPSD0008 SPSD0214 
+Cluster Rank 2:  SPSD0044 SPSD0202 SPSD0217 
+Cluster Rank 3:  SPSD0024 SPSD0033 SPSD0036 
+     Rcrtmntlvl RcrtmntCd  RcrtmntDprtmmt      Yi                   Zi                    Ui                  rnkYi rnkZi rnkUi
+[1,] "7"        "SPSD0008" "Legal Department " "0.0320946026450147" "0.00731722222293238" "0.271063823462038" "3"   "1"   "3"  
+[2,] "7"        "SPSD0024" "Legal Department " "0.0345726476634416" "0.0104531746041891"  "0.27518382548915"  "2"   "5"   "2"  
+[3,] "7"        "SPSD0033" "Legal Department " "0.0393581593775802" "0.00731722222293238" "0.296864438769848" "1"   "2"   "1"  
+[4,] "7"        "SPSD0036" "Legal Department " "0.0315597560147225" "0.00731722222293238" "0.265408852395703" "4"   "3"   "4"  
+[5,] "7"        "SPSD0044" "Legal Department " "0.0212398388963759" "0.0135891269854459"  "0.215980891255216" "8"   "6"   "8"  
+[6,] "7"        "SPSD0202" "Legal Department " "0.0267979242848228" "0.0135891269854459"  "0.237378088417534" "6"   "7"   "6"  
+[7,] "7"        "SPSD0214" "Legal Department " "0.022741567867709"  "0.017052040285049"   "0.218886685828167" "7"   "8"   "7"  
+[8,] "7"        "SPSD0217" "Legal Department " "0.0312909998128147" "0.00731722222293238" "0.264011859426521" "5"   "4"   "5"  
+     DR                 rnkDR
+[1,] "2.33333333333333" "2"  
+[2,] "3"                "3"  
+[3,] "1.33333333333333" "1"  
+[4,] "3.66666666666667" "4"  
+[5,] "7.33333333333333" "7"  
+[6,] "6.33333333333333" "6"  
+[7,] "7.33333333333333" "8"  
+[8,] "4.66666666666667" "5"  
+Your final results for Recruitment Department 7 are as follows:
+SPSD0033 SPSD0008 SPSD0024 SPSD0036 
+[1] 33  8 24 36
+[1] "#############################################################################"
+Calculations for Recruitment Department 8 
+Cycle 1 
+Cluster 1:  SPSD0037 SPSD0162 
+Cluster 2:  SPSD0014 SPSD0025 SPSD0057 SPSD0064 SPSD0095 SPSD0193 
+Cluster 3:  SPSD0032 SPSD0134 SPSD0248 
+Cluster 4:  SPSD0020 SPSD0119 SPSD0184 SPSD0213 SPSD0275 SPSD0287 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.06051828 0.22528031 0.4353911     4     4     4 4.000000     4
+[2,] 0.39535405 0.08624276 0.9844471     1     1     1 1.000000     1
+[3,] 0.11749467 0.19928643 0.5719744     2     3     3 2.666667     3
+[4,] 0.10624275 0.17329255 0.6008017     3     2     2 2.333333     2
+The selected clusters are:  2 4 3 
+Cluster Rank 1:  SPSD0014 SPSD0025 SPSD0057 SPSD0064 SPSD0095 SPSD0193 
+Cluster Rank 2:  SPSD0020 SPSD0119 SPSD0184 SPSD0213 SPSD0275 SPSD0287 
+Cluster Rank 3:  SPSD0032 SPSD0134 SPSD0248 
+Cycle 2 
+Cluster 1:  SPSD0014 SPSD0057 SPSD0064 SPSD0095 SPSD0193 
+Cluster 2:  SPSD0032 SPSD0134 SPSD0248 
+Cluster 3:  SPSD0025 SPSD0184 SPSD0275 
+Cluster 4:  SPSD0020 SPSD0119 SPSD0213 SPSD0287 
+            Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.2215449 0.04332509 0.7521838     2     2     2  2     2
+[2,] 0.2905333 0.02387975 0.8688736     1     1     1  1     1
+[3,] 0.1713816 0.08689851 0.6741563     3     3     3  3     3
+[4,] 0.1121895 0.09931258 0.5979052     4     4     4  4     4
+The selected clusters are:  2 1 3 
+Cluster Rank 1:  SPSD0032 SPSD0134 SPSD0248 
+Cluster Rank 2:  SPSD0014 SPSD0057 SPSD0064 SPSD0095 SPSD0193 
+Cluster Rank 3:  SPSD0025 SPSD0184 SPSD0275 
+Cycle 3 
+Cluster 1:  SPSD0064 SPSD0134 
+Cluster 2:  SPSD0014 SPSD0057 SPSD0095 SPSD0193 
+Cluster 3:  SPSD0025 SPSD0184 SPSD0275 
+Cluster 4:  SPSD0032 SPSD0248 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.08070970 0.19638501 0.4999405     3     3     3  3     3
+[2,] 0.37421963 0.07724552 0.9544393     1     1     1  1     1
+[3,] 0.16250482 0.15796186 0.6567731     2     2     2  2     2
+[4,] 0.04213387 0.22200045 0.4361815     4     4     4  4     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0014 SPSD0057 SPSD0095 SPSD0193 
+Cluster Rank 2:  SPSD0025 SPSD0184 SPSD0275 
+Cluster Rank 3:  SPSD0064 SPSD0134 
+Cycle 4 
+Cluster 1:  SPSD0014 SPSD0057 SPSD0095 SPSD0193 
+Cluster 2:  SPSD0064 SPSD0134 
+Cluster 3:  SPSD0025 
+Cluster 4:  SPSD0184 SPSD0275 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.26545728 0.10764902 0.8177686     2     2     2 2.000000     2
+[2,] 0.29669493 0.04469183 0.8754287     1     1     1 1.000000     1
+[3,] 0.08932743 0.16623456 0.5086335     3     4     4 3.666667     4
+[4,] 0.08749673 0.14776405 0.5342685     4     3     3 3.333333     3
+The selected clusters are:  2 1 4 
+Cluster Rank 1:  SPSD0064 SPSD0134 
+Cluster Rank 2:  SPSD0014 SPSD0057 SPSD0095 SPSD0193 
+Cluster Rank 3:  SPSD0184 SPSD0275 
+     Rcrtmntlvl RcrtmntCd  RcrtmntDprtmmt                        Yi                   Zi                    Ui                 
+[1,] "8"        "SPSD0014" "Off-site Drilling [Offshore Sector]" "0.0274987794012731" "0.0135891269854459"  "0.24295022123663" 
+[2,] "8"        "SPSD0057" "Off-site Drilling [Offshore Sector]" "0.0229134919529133" "0.0119364281995343"  "0.223711015872172"
+[3,] "8"        "SPSD0064" "Off-site Drilling [Offshore Sector]" "0.031895619687833"  "0.00731722222293238" "0.269995432094534"
+[4,] "8"        "SPSD0095" "Off-site Drilling [Offshore Sector]" "0.0257543119137758" "0.0135891269854459"  "0.236402708200075"
+[5,] "8"        "SPSD0134" "Off-site Drilling [Offshore Sector]" "0.0242340949118069" "0.0119364281995343"  "0.235356244950556"
+[6,] "8"        "SPSD0184" "Off-site Drilling [Offshore Sector]" "0.0321729944522263" "0.00731722222293238" "0.270688323904685"
+[7,] "8"        "SPSD0193" "Off-site Drilling [Offshore Sector]" "0.02545660837169"   "0.0119364281995343"  "0.242004945954025"
+[8,] "8"        "SPSD0275" "Off-site Drilling [Offshore Sector]" "0.0178847703605628" "0.0135891269854459"  "0.201315259386529"
+     rnkYi rnkZi rnkUi DR                 rnkDR
+[1,] "3"   "6"   "3"   "4"                "3"  
+[2,] "7"   "3"   "7"   "5.66666666666667" "7"  
+[3,] "2"   "1"   "2"   "1.66666666666667" "2"  
+[4,] "4"   "7"   "5"   "5.33333333333333" "5"  
+[5,] "6"   "4"   "6"   "5.33333333333333" "6"  
+[6,] "1"   "2"   "1"   "1.33333333333333" "1"  
+[7,] "5"   "5"   "4"   "4.66666666666667" "4"  
+[8,] "8"   "8"   "8"   "8"                "8"  
+Your final results for Recruitment Department 8 are as follows:
+SPSD0184 SPSD0064 SPSD0014 SPSD0193 
+[1] 184  64  14 193
+[1] "#############################################################################"
+Calculations for Recruitment Department 9 
+     Rcrtmntlvl RcrmntCd   RcrtmntDprtmmt                       Yi                   Zi                    Ui                 
+[1,] "9"        "SPSD0047" "Off-site Drilling [Onshore Sector]" "0.0276147766479521" "0.00731722222293238" "0.269645202090163"
+[2,] "9"        "SPSD0074" "Off-site Drilling [Onshore Sector]" "0.0135072250217872" "0.0135891269854459"  "0.211074143239792"
+[3,] "9"        "SPSD0112" "Off-site Drilling [Onshore Sector]" "0.028111197699089"  "0.00731722222293238" "0.270964702050578"
+[4,] "9"        "SPSD0150" "Off-site Drilling [Onshore Sector]" "0.0255773819172443" "0.00731722222293238" "0.26488776133601" 
+[5,] "9"        "SPSD0171" "Off-site Drilling [Onshore Sector]" "0.0373307471200667" "0.00731722222293238" "0.29712487732161" 
+[6,] "9"        "SPSD0222" "Off-site Drilling [Onshore Sector]" "0.0126224395998318" "0.017052040285049"   "0.189969817193774"
+[7,] "9"        "SPSD0250" "Off-site Drilling [Onshore Sector]" "0.0234863957585809" "0.0119364281995343"  "0.242186443621123"
+[8,] "9"        "SPSD0258" "Off-site Drilling [Onshore Sector]" "0.0276458029636481" "0.00731722222293238" "0.269725569226232"
+     rnkYi rnkZi rnkUi DR                 rnkDR
+[1,] "4"   "1"   "4"   "3"                "3"  
+[2,] "7"   "7"   "7"   "7"                "7"  
+[3,] "2"   "2"   "2"   "2"                "1"  
+[4,] "5"   "3"   "5"   "4.33333333333333" "5"  
+[5,] "1"   "4"   "1"   "2"                "2"  
+[6,] "8"   "8"   "8"   "8"                "8"  
+[7,] "6"   "6"   "6"   "6"                "6"  
+[8,] "3"   "5"   "3"   "3.66666666666667" "4"  
+Your final results for Recruitment Department 9 are as follows:
+SPSD0112 SPSD0171 SPSD0047 SPSD0258 
+[1] 112 171  47 258
+[1] "#############################################################################"
+Calculations for Recruitment Department 10 
+Cycle 1 
+Cluster 1:  SPSD0168 SPSD0179 SPSD0197 SPSD0205 SPSD0208 SPSD0228 
+Cluster 2:  SPSD0139 SPSD0142 
+Cluster 3:  SPSD0156 
+Cluster 4:  SPSD0216 SPSD0238 SPSD0260 
+             Yi        Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.31546883 0.1282256 0.8804469     1     2     1 1.333333     1
+[2,] 0.23416879 0.1036643 0.7958123     2     1     2 1.666667     2
+[3,] 0.07101576 0.2120406 0.4623755     4     4     4 4.000000     4
+[4,] 0.10964565 0.1696325 0.5752177     3     3     3 3.000000     3
+The selected clusters are:  1 2 4 
+Cluster Rank 1:  SPSD0168 SPSD0179 SPSD0197 SPSD0205 SPSD0208 SPSD0228 
+Cluster Rank 2:  SPSD0139 SPSD0142 
+Cluster Rank 3:  SPSD0216 SPSD0238 SPSD0260 
+Cycle 2 
+Cluster 1:  SPSD0179 SPSD0197 SPSD0208 SPSD0228 
+Cluster 2:  SPSD0139 
+Cluster 3:  SPSD0216 SPSD0238 SPSD0260 
+Cluster 4:  SPSD0142 SPSD0168 SPSD0205 
+            Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.2646149 0.08669207 0.8081092     1     2     1 1.333333     1
+[2,] 0.1429268 0.12171037 0.6477995     3     4     3 3.333333     3
+[3,] 0.2495612 0.06458350 0.7949637     2     1     2 1.666667     2
+[4,] 0.1288972 0.10953933 0.6252908     4     3     4 3.666667     4
+The selected clusters are:  1 3 2 
+Cluster Rank 1:  SPSD0179 SPSD0197 SPSD0208 SPSD0228 
+Cluster Rank 2:  SPSD0216 SPSD0238 SPSD0260 
+Cluster Rank 3:  SPSD0139 
+     Rcrtmntlvl RcrtmntCd  RcrtmntDprtmmt                           Yi                   Zi                   
+[1,] "10"       "SPSD0139" "Off-site Tunnel Boring [Ground Sector]" "0.0178392250937067" "0.017052040285049"  
+[2,] "10"       "SPSD0179" "Off-site Tunnel Boring [Ground Sector]" "0.0260803147659117" "0.0104531746041891" 
+[3,] "10"       "SPSD0197" "Off-site Tunnel Boring [Ground Sector]" "0.0320377503715342" "0.00731722222293238"
+[4,] "10"       "SPSD0208" "Off-site Tunnel Boring [Ground Sector]" "0.0259093635687227" "0.0135891269854459" 
+[5,] "10"       "SPSD0216" "Off-site Tunnel Boring [Ground Sector]" "0.0269586828032084" "0.0135891269854459" 
+[6,] "10"       "SPSD0228" "Off-site Tunnel Boring [Ground Sector]" "0.0238516341629381" "0.0119364281995343" 
+[7,] "10"       "SPSD0238" "Off-site Tunnel Boring [Ground Sector]" "0.0293427389078628" "0.0119364281995343" 
+[8,] "10"       "SPSD0260" "Off-site Tunnel Boring [Ground Sector]" "0.017932775734713"  "0.0135891269854459" 
+     Ui                  rnkYi rnkZi rnkUi DR                 rnkDR
+[1,] "0.204116256933901" "8"   "8"   "8"   "8"                "8"  
+[2,] "0.246765791352977" "4"   "2"   "3"   "3"                "3"  
+[3,] "0.270753670074894" "1"   "1"   "1"   "1"                "1"  
+[4,] "0.237128017602499" "5"   "5"   "5"   "5"                "5"  
+[5,] "0.240725592278654" "3"   "6"   "4"   "4.33333333333333" "4"  
+[6,] "0.233692057223631" "6"   "3"   "6"   "5"                "6"  
+[7,] "0.257514150144142" "2"   "4"   "2"   "2.66666666666667" "2"  
+[8,] "0.205779209017172" "7"   "7"   "7"   "7"                "7"  
+Your final results for Recruitment Department 10 are as follows:
+SPSD0197 SPSD0238 SPSD0179 SPSD0216 
+[1] 197 238 179 216
+[1] "#############################################################################"
+Calculations for Recruitment Department 11 
+Cycle 1 
+Cluster 1:  SPSD0007 SPSD0029 SPSD0069 SPSD0128 
+Cluster 2:  SPSD0082 SPSD0102 
+Cluster 3:  SPSD0090 
+Cluster 4:  SPSD0042 SPSD0054 SPSD0115 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.26287175 0.09527098 0.8102175     2     2     2  2     2
+[2,] 0.28622060 0.03955293 0.8673451     1     1     1  1     1
+[3,] 0.08607679 0.16065046 0.5039369     4     4     4  4     4
+[4,] 0.13041012 0.10710030 0.6269221     3     3     3  3     3
+The selected clusters are:  2 1 4 
+Cluster Rank 1:  SPSD0082 SPSD0102 
+Cluster Rank 2:  SPSD0007 SPSD0029 SPSD0069 SPSD0128 
+Cluster Rank 3:  SPSD0042 SPSD0054 SPSD0115 
+Cycle 2 
+Cluster 1:  SPSD0082 
+Cluster 2:  SPSD0007 SPSD0029 SPSD0069 SPSD0128 
+Cluster 3:  SPSD0042 SPSD0054 SPSD0115 
+Cluster 4:  SPSD0102 
+             Yi        Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.03938943 0.2430036 0.3749796     3     3     3  3     3
+[2,] 0.37720264 0.1197435 0.9559989     1     1     1  1     1
+[3,] 0.16223112 0.1634752 0.6578464     2     2     2  2     2
+[4,] 0.01868990 0.2562584 0.3271572     4     4     4  4     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0007 SPSD0029 SPSD0069 SPSD0128 
+Cluster Rank 2:  SPSD0042 SPSD0054 SPSD0115 
+Cluster Rank 3:  SPSD0082 
+     Rcrtmntlvl RcrtmntCd  RcrtmntDprtmmt                                Yi                   Zi                  
+[1,] "11"       "SPSD0007" "Off-site Tunnel Boring [Underground Sector]" "0.0266918305521508" "0.0135891269854459"
+[2,] "11"       "SPSD0029" "Off-site Tunnel Boring [Underground Sector]" "0.0312131951395941" "0.0104531746041891"
+[3,] "11"       "SPSD0042" "Off-site Tunnel Boring [Underground Sector]" "0.0324638391174223" "0.0135891269854459"
+[4,] "11"       "SPSD0054" "Off-site Tunnel Boring [Underground Sector]" "0.0202829774250493" "0.017052040285049" 
+[5,] "11"       "SPSD0069" "Off-site Tunnel Boring [Underground Sector]" "0.030068793241974"  "0.0104531746041891"
+[6,] "11"       "SPSD0082" "Off-site Tunnel Boring [Underground Sector]" "0.022998770363134"  "0.0119364281995343"
+[7,] "11"       "SPSD0115" "Off-site Tunnel Boring [Underground Sector]" "0.026789062364357"  "0.0119364281995343"
+[8,] "11"       "SPSD0128" "Off-site Tunnel Boring [Underground Sector]" "0.0227556873126026" "0.017052040285049" 
+     Ui                  rnkYi rnkZi rnkUi DR                 rnkDR
+[1,] "0.237562308571037" "5"   "5"   "5"   "5"                "5"  
+[2,] "0.263560611758326" "2"   "1"   "1"   "1.33333333333333" "1"  
+[3,] "0.255800719345051" "1"   "6"   "3"   "3.33333333333333" "3"  
+[4,] "0.210216481391033" "8"   "7"   "8"   "7.66666666666667" "8"  
+[5,] "0.263204659234191" "3"   "2"   "2"   "2.33333333333333" "2"  
+[6,] "0.224079217913965" "6"   "3"   "6"   "5"                "6"  
+[7,] "0.238592526390934" "4"   "4"   "4"   "4"                "4"  
+[8,] "0.22150131900185"  "7"   "8"   "7"   "7.33333333333333" "7"  
+Your final results for Recruitment Department 11 are as follows:
+SPSD0029 SPSD0069 SPSD0042 SPSD0115 
+[1]  29  69  42 115
+[1] "#############################################################################"
+Calculations for Recruitment Department 12 
+Cycle 1 
+Cluster 1:  SPSD0005 SPSD0124 SPSD0256 
+Cluster 2:  SPSD0046 SPSD0065 SPSD0092 SPSD0109 SPSD0110 SPSD0148 SPSD0220 
+Cluster 3:  SPSD0011 SPSD0019 SPSD0083 SPSD0154 SPSD0167 SPSD0187 SPSD0244 
+Cluster 4:  SPSD0091 SPSD0204 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.06413648 0.20022603 0.4565793     3     3     3  3     3
+[2,] 0.35438729 0.09194625 0.9295721     1     1     1  1     1
+[3,] 0.19939333 0.11542442 0.7212521     2     2     2  2     2
+[4,] 0.02102934 0.23556004 0.3363429     4     4     4  4     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0046 SPSD0065 SPSD0092 SPSD0109 SPSD0110 SPSD0148 SPSD0220 
+Cluster Rank 2:  SPSD0011 SPSD0019 SPSD0083 SPSD0154 SPSD0167 SPSD0187 SPSD0244 
+Cluster Rank 3:  SPSD0005 SPSD0124 SPSD0256 
+Cycle 2 
+Cluster 1:  SPSD0011 SPSD0019 SPSD0083 SPSD0154 SPSD0167 SPSD0244 
+Cluster 2:  SPSD0109 SPSD0187 SPSD0220 
+Cluster 3:  SPSD0046 SPSD0065 SPSD0092 SPSD0110 SPSD0148 
+Cluster 4:  SPSD0005 SPSD0124 SPSD0256 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.22064106 0.05356604 0.7525517     3     2     3 2.666667     3
+[2,] 0.24654135 0.03584657 0.8056133     1     1     1 1.000000     1
+[3,] 0.23675771 0.05691904 0.7735852     2     3     2 2.333333     2
+[4,] 0.06773025 0.12852414 0.4916606     4     4     4 4.000000     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0109 SPSD0187 SPSD0220 
+Cluster Rank 2:  SPSD0046 SPSD0065 SPSD0092 SPSD0110 SPSD0148 
+Cluster Rank 3:  SPSD0011 SPSD0019 SPSD0083 SPSD0154 SPSD0167 SPSD0244 
+Cycle 3 
+Cluster 1:  SPSD0065 SPSD0109 SPSD0148 SPSD0220 
+Cluster 2:  SPSD0011 SPSD0187 
+Cluster 3:  SPSD0019 SPSD0083 SPSD0154 SPSD0167 SPSD0244 
+Cluster 4:  SPSD0046 SPSD0092 SPSD0110 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.18928881 0.04262073 0.6984086     3     1     3 2.333333     3
+[2,] 0.20704909 0.05909257 0.7476527     2     2     2 2.000000     2
+[3,] 0.29117338 0.07182382 0.8502845     1     3     1 1.666667     1
+[4,] 0.08533147 0.12273072 0.5404077     4     4     4 4.000000     4
+The selected clusters are:  3 2 1 
+Cluster Rank 1:  SPSD0019 SPSD0083 SPSD0154 SPSD0167 SPSD0244 
+Cluster Rank 2:  SPSD0011 SPSD0187 
+Cluster Rank 3:  SPSD0065 SPSD0109 SPSD0148 SPSD0220 
+Cycle 4 
+Cluster 1:  SPSD0011 SPSD0187 
+Cluster 2:  SPSD0065 SPSD0148 
+Cluster 3:  SPSD0109 SPSD0220 
+Cluster 4:  SPSD0019 SPSD0083 SPSD0154 SPSD0167 SPSD0244 
+            Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.1396344 0.08574208 0.6134466     4     2     4 3.333333     4
+[2,] 0.2866900 0.04594737 0.8769743     1     1     1 1.000000     1
+[3,] 0.1689609 0.08574208 0.6804417     3     3     3 3.000000     3
+[4,] 0.2270318 0.11428148 0.7844875     2     4     2 2.666667     2
+The selected clusters are:  2 4 3 
+Cluster Rank 1:  SPSD0065 SPSD0148 
+Cluster Rank 2:  SPSD0019 SPSD0083 SPSD0154 SPSD0167 SPSD0244 
+Cluster Rank 3:  SPSD0109 SPSD0220 
+Cycle 5 
+Cluster 1:  SPSD0109 SPSD0220 
+Cluster 2:  SPSD0019 SPSD0083 SPSD0154 SPSD0244 
+Cluster 3:  SPSD0167 
+Cluster 4:  SPSD0065 SPSD0148 
+             Yi        Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.08882376 0.2096363 0.5190422     2     2     2 2.000000     2
+[2,] 0.40666268 0.1200816 0.9909063     1     1     1 1.000000     1
+[3,] 0.06132891 0.2506521 0.4311188     3     4     4 3.666667     4
+[4,] 0.04772710 0.2369801 0.4528471     4     3     3 3.333333     3
+The selected clusters are:  2 1 4 
+Cluster Rank 1:  SPSD0019 SPSD0083 SPSD0154 SPSD0244 
+Cluster Rank 2:  SPSD0109 SPSD0220 
+Cluster Rank 3:  SPSD0065 SPSD0148 
+     Rcrtmntlvl RcrtmntCd  RcrtmntDprtmmt        Yi                   Zi                    Ui                  rnkYi rnkZi
+[1,] "12"       "SPSD0019" "Project Management " "0.0275597264552489" "0.0119364281995343"  "0.251120524012932" "5"   "4"  
+[2,] "12"       "SPSD0065" "Project Management " "0.0247509337616296" "0.0119364281995343"  "0.237839724403829" "6"   "5"  
+[3,] "12"       "SPSD0083" "Project Management " "0.0280033644641489" "0.0119364281995343"  "0.251826570010392" "4"   "6"  
+[4,] "12"       "SPSD0109" "Project Management " "0.0288892879847816" "0.00731722222293238" "0.248627831912322" "3"   "2"  
+[5,] "12"       "SPSD0148" "Project Management " "0.0184714848233236" "0.017052040285049"   "0.198119460449784" "8"   "7"  
+[6,] "12"       "SPSD0154" "Project Management " "0.0462729911303007" "0.00443964571997693" "0.318789758592482" "1"   "1"  
+[7,] "12"       "SPSD0220" "Project Management " "0.0314046227805014" "0.00731722222293238" "0.267547499920175" "2"   "3"  
+[8,] "12"       "SPSD0244" "Project Management " "0.0202901558031406" "0.017052040285049"   "0.213836893108188" "7"   "8"  
+     rnkUi DR                 rnkDR
+[1,] "4"   "4.33333333333333" "4"  
+[2,] "6"   "5.66666666666667" "6"  
+[3,] "3"   "4.33333333333333" "5"  
+[4,] "5"   "3.33333333333333" "3"  
+[5,] "8"   "7.66666666666667" "8"  
+[6,] "1"   "1"                "1"  
+[7,] "2"   "2.33333333333333" "2"  
+[8,] "7"   "7.33333333333333" "7"  
+Your final results for Recruitment Department 12 are as follows:
+SPSD0154 SPSD0220 SPSD0109 SPSD0019 
+[1] 154 220 109  19
+[1] "#############################################################################"
+Calculations for Recruitment Department 13 
+Cycle 1 
+Cluster 1:  SPSD0178 SPSD0211 
+Cluster 2:  SPSD0089 SPSD0274 SPSD0278 
+Cluster 3:  SPSD0105 SPSD0135 SPSD0265 
+Cluster 4:  SPSD0289 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.09907649 0.15996714 0.5456701     3     3     3  3     3
+[2,] 0.34826564 0.08035154 0.9238962     1     1     1  1     1
+[3,] 0.19753611 0.11197700 0.7168482     2     2     2  2     2
+[4,] 0.02553804 0.22395399 0.3564998     4     4     4  4     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0089 SPSD0274 SPSD0278 
+Cluster Rank 2:  SPSD0105 SPSD0135 SPSD0265 
+Cluster Rank 3:  SPSD0178 SPSD0211 
+     Rcrtmntlvl RcrtmntCd  RcrtmntDprtmmt                          Yi                   Zi                   
+[1,] "13"       "SPSD0089" "Research and Development (R&D) [DSTS]" "0.018368790496624"  "0.017052040285049"  
+[2,] "13"       "SPSD0105" "Research and Development (R&D) [DSTS]" "0.0291089444959563" "0.00731722222293238"
+[3,] "13"       "SPSD0135" "Research and Development (R&D) [DSTS]" "0.0275123675568173" "0.0119364281995343" 
+[4,] "13"       "SPSD0178" "Research and Development (R&D) [DSTS]" "0.0223717159774876" "0.0135891269854459" 
+[5,] "13"       "SPSD0211" "Research and Development (R&D) [DSTS]" "0.0186027976037237" "0.0135891269854459" 
+[6,] "13"       "SPSD0265" "Research and Development (R&D) [DSTS]" "0.0247637731536008" "0.0119364281995343" 
+[7,] "13"       "SPSD0274" "Research and Development (R&D) [DSTS]" "0.0250242634387995" "0.0135891269854459" 
+[8,] "13"       "SPSD0278" "Research and Development (R&D) [DSTS]" "0.0259890565440725" "0.0119364281995343" 
+     Ui                  rnkYi rnkZi rnkUi DR                 rnkDR
+[1,] "0.195263116463862" "8"   "8"   "8"   "8"                "8"  
+[2,] "0.249749209471268" "1"   "1"   "1"   "1"                "1"  
+[3,] "0.249461874453226" "2"   "2"   "2"   "2"                "2"  
+[4,] "0.220366638750008" "6"   "5"   "6"   "5.66666666666667" "6"  
+[5,] "0.206358903990933" "7"   "6"   "7"   "6.66666666666667" "7"  
+[6,] "0.238518258412977" "5"   "3"   "4"   "4"                "4"  
+[7,] "0.229048190982531" "4"   "7"   "5"   "5.33333333333333" "5"  
+[8,] "0.242414123111554" "3"   "4"   "3"   "3.33333333333333" "3"  
+Your final results for Recruitment Department 13 are as follows:
+SPSD0105 SPSD0135 SPSD0278 SPSD0265 
+[1] 105 135 278 265
+[1] "#############################################################################"
+Calculations for Recruitment Department 14 
+Cycle 1 
+Cluster 1:  SPSD0026 SPSD0038 SPSD0048 SPSD0114 SPSD0133 SPSD0149 SPSD0170 SPSD0194 SPSD0218 SPSD0235 
+Cluster 2:  SPSD0012 SPSD0067 SPSD0175 SPSD0180 SPSD0183 SPSD0266 SPSD0280 
+Cluster 3:  SPSD0212 SPSD0227 
+Cluster 4:  SPSD0070 SPSD0084 SPSD0101 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.21811032 0.11418233 0.7568558     2     2     2  2     2
+[2,] 0.34977135 0.08444253 0.9323580     1     1     1  1     1
+[3,] 0.06020411 0.20008802 0.4288912     3     3     3  3     3
+[4,] 0.04046825 0.20008802 0.3995441     4     4     4  4     4
+The selected clusters are:  2 1 3 
+Cluster Rank 1:  SPSD0012 SPSD0067 SPSD0175 SPSD0180 SPSD0183 SPSD0266 SPSD0280 
+Cluster Rank 2:  SPSD0026 SPSD0038 SPSD0048 SPSD0114 SPSD0133 SPSD0149 SPSD0170 SPSD0194 SPSD0218 SPSD0235 
+Cluster Rank 3:  SPSD0212 SPSD0227 
+Cycle 2 
+Cluster 1:  SPSD0212 SPSD0227 
+Cluster 2:  SPSD0012 SPSD0133 SPSD0194 SPSD0235 SPSD0280 
+Cluster 3:  SPSD0067 SPSD0175 SPSD0180 SPSD0183 SPSD0266 
+Cluster 4:  SPSD0026 SPSD0038 SPSD0048 SPSD0114 SPSD0149 SPSD0170 SPSD0218 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.06503208 0.18781480 0.4457576     4     4     4  4     4
+[2,] 0.34665980 0.06008847 0.9340481     1     1     1  1     1
+[3,] 0.20107763 0.10602448 0.7247250     2     2     2  2     2
+[4,] 0.13728950 0.11511230 0.6559749     3     3     3  3     3
+The selected clusters are:  2 3 4 
+Cluster Rank 1:  SPSD0012 SPSD0133 SPSD0194 SPSD0235 SPSD0280 
+Cluster Rank 2:  SPSD0067 SPSD0175 SPSD0180 SPSD0183 SPSD0266 
+Cluster Rank 3:  SPSD0026 SPSD0038 SPSD0048 SPSD0114 SPSD0149 SPSD0170 SPSD0218 
+Cycle 3 
+Cluster 1:  SPSD0012 SPSD0067 SPSD0133 SPSD0280 
+Cluster 2:  SPSD0048 SPSD0114 SPSD0149 SPSD0218 
+Cluster 3:  SPSD0026 SPSD0038 SPSD0170 SPSD0194 SPSD0235 
+Cluster 4:  SPSD0175 SPSD0180 SPSD0183 SPSD0266 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.14165852 0.09727575 0.6224727     3     3     3  3     3
+[2,] 0.31391137 0.02690296 0.8898779     1     1     1  1     1
+[3,] 0.22453640 0.06600854 0.7578356     2     2     2  2     2
+[4,] 0.08250897 0.13896535 0.5430867     4     4     4  4     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0048 SPSD0114 SPSD0149 SPSD0218 
+Cluster Rank 2:  SPSD0026 SPSD0038 SPSD0170 SPSD0194 SPSD0235 
+Cluster Rank 3:  SPSD0012 SPSD0067 SPSD0133 SPSD0280 
+Cycle 4 
+Cluster 1:  SPSD0133 SPSD0194 SPSD0235 
+Cluster 2:  SPSD0012 SPSD0067 SPSD0280 
+Cluster 3:  SPSD0048 SPSD0114 SPSD0149 SPSD0218 
+Cluster 4:  SPSD0026 SPSD0038 SPSD0170 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.13893683 0.09562121 0.6170615     3     3     3  3     3
+[2,] 0.30799555 0.03039621 0.8821422     1     1     1  1     1
+[3,] 0.23391145 0.05464069 0.7717552     2     2     2  2     2
+[4,] 0.08056728 0.13660172 0.5383657     4     4     4  4     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0012 SPSD0067 SPSD0280 
+Cluster Rank 2:  SPSD0048 SPSD0114 SPSD0149 SPSD0218 
+Cluster Rank 3:  SPSD0133 SPSD0194 SPSD0235 
+Cycle 5 
+Cluster 1:  SPSD0133 SPSD0194 SPSD0235 
+Cluster 2:  SPSD0012 SPSD0067 SPSD0280 
+Cluster 3:  SPSD0048 SPSD0114 
+Cluster 4:  SPSD0149 SPSD0218 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.15802132 0.11023632 0.6578926     2     2     2  2     2
+[2,] 0.35771789 0.04609272 0.9405137     1     1     1  1     1
+[3,] 0.14058904 0.15748045 0.6161497     3     3     3  3     3
+[4,] 0.06108952 0.18897654 0.4846420     4     4     4  4     4
+The selected clusters are:  2 1 3 
+Cluster Rank 1:  SPSD0012 SPSD0067 SPSD0280 
+Cluster Rank 2:  SPSD0133 SPSD0194 SPSD0235 
+Cluster Rank 3:  SPSD0048 SPSD0114 
+     Rcrtmntlvl RcrtmntCd  RcrtmntDprtmmt                          Yi                   Zi                   
+[1,] "14"       "SPSD0012" "Research and Development (R&D) [PQRS]" "0.0311564340938438" "0.0104531746041891" 
+[2,] "14"       "SPSD0048" "Research and Development (R&D) [PQRS]" "0.0313788624172846" "0.00731722222293238"
+[3,] "14"       "SPSD0067" "Research and Development (R&D) [PQRS]" "0.0204583995886597" "0.017052040285049"  
+[4,] "14"       "SPSD0114" "Research and Development (R&D) [PQRS]" "0.0190888582159039" "0.017052040285049"  
+[5,] "14"       "SPSD0133" "Research and Development (R&D) [PQRS]" "0.020367681630614"  "0.017052040285049"  
+[6,] "14"       "SPSD0194" "Research and Development (R&D) [PQRS]" "0.0188951903119661" "0.0135891269854459" 
+[7,] "14"       "SPSD0235" "Research and Development (R&D) [PQRS]" "0.0360711275893262" "0.0104531746041891" 
+[8,] "14"       "SPSD0280" "Research and Development (R&D) [PQRS]" "0.0228757977885685" "0.0119364281995343" 
+     Ui                  rnkYi rnkZi rnkUi DR                 rnkDR
+[1,] "0.265217958956764" "3"   "2"   "2"   "2.33333333333333" "3"  
+[2,] "0.264459456312935" "2"   "1"   "3"   "2"                "2"  
+[3,] "0.211135359093859" "5"   "6"   "6"   "5.66666666666667" "5"  
+[4,] "0.207351501092108" "7"   "7"   "7"   "7"                "7"  
+[5,] "0.214167269276756" "6"   "8"   "5"   "6.33333333333333" "6"  
+[6,] "0.205302321011987" "8"   "5"   "8"   "7"                "8"  
+[7,] "0.281726815295973" "1"   "3"   "1"   "1.66666666666667" "1"  
+[8,] "0.227245625322477" "4"   "4"   "4"   "4"                "4"  
+Your final results for Recruitment Department 14 are as follows:
+SPSD0235 SPSD0048 SPSD0012 SPSD0280 
+[1] 235  48  12 280
+[1] "#############################################################################"
+Calculations for Recruitment Department 15 
+Cycle 1 
+Cluster 1:  SPSD0001 SPSD0097 SPSD0121 SPSD0163 SPSD0255 
+Cluster 2:  SPSD0076 
+Cluster 3:  SPSD0017 SPSD0039 SPSD0188 SPSD0203 
+Cluster 4:  SPSD0257 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.26779787 0.11176536 0.8175900     2     2     2  2     2
+[2,] 0.12063102 0.14985301 0.5971253     3     3     3  3     3
+[3,] 0.27706527 0.08718625 0.8262456     1     1     1  1     1
+[4,] 0.03414921 0.20152646 0.3644217     4     4     4  4     4
+The selected clusters are:  3 1 2 
+Cluster Rank 1:  SPSD0017 SPSD0039 SPSD0188 SPSD0203 
+Cluster Rank 2:  SPSD0001 SPSD0097 SPSD0121 SPSD0163 SPSD0255 
+Cluster Rank 3:  SPSD0076 
+Cycle 2 
+Cluster 1:  SPSD0076 
+Cluster 2:  SPSD0001 SPSD0121 SPSD0163 
+Cluster 3:  SPSD0017 SPSD0039 SPSD0188 SPSD0203 
+Cluster 4:  SPSD0097 SPSD0255 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.04829397 0.19586207 0.3987482     4     4     4  4     4
+[2,] 0.33017068 0.07756202 0.9015951     1     1     1  1     1
+[3,] 0.24424864 0.10174617 0.7887739     2     2     2  2     2
+[4,] 0.05080939 0.18079576 0.4645874     3     3     3  3     3
+The selected clusters are:  2 3 4 
+Cluster Rank 1:  SPSD0001 SPSD0121 SPSD0163 
+Cluster Rank 2:  SPSD0017 SPSD0039 SPSD0188 SPSD0203 
+Cluster Rank 3:  SPSD0097 SPSD0255 
+Cycle 3 
+Cluster 1:  SPSD0001 SPSD0121 SPSD0163 
+Cluster 2:  SPSD0017 SPSD0188 
+Cluster 3:  SPSD0039 SPSD0203 
+Cluster 4:  SPSD0097 SPSD0255 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.20587903 0.03730769 0.7315090     2     2     2  2     2
+[2,] 0.30506454 0.01975437 0.8829720     1     1     1  1     1
+[3,] 0.17893702 0.09226887 0.6850953     3     3     3  3     3
+[4,] 0.08447285 0.13181267 0.5388721     4     4     4  4     4
+The selected clusters are:  2 1 3 
+Cluster Rank 1:  SPSD0017 SPSD0188 
+Cluster Rank 2:  SPSD0001 SPSD0121 SPSD0163 
+Cluster Rank 3:  SPSD0039 SPSD0203 
+     Rcrtmntlvl RcrtmntCd  RcrtmntDprtmmt                          Yi                    Zi                   
+[1,] "15"       "SPSD0001" "Research and Development (R&D) [SPSD]" "0.0512428057554179"  "0.00367320611787799"
+[2,] "15"       "SPSD0017" "Research and Development (R&D) [SPSD]" "0.0308081439565472"  "0.0104531746041891" 
+[3,] "15"       "SPSD0039" "Research and Development (R&D) [SPSD]" "0.00802316754643091" "0.0221676523705637" 
+[4,] "15"       "SPSD0121" "Research and Development (R&D) [SPSD]" "0.0287845442682427"  "0.0119364281995343" 
+[5,] "15"       "SPSD0163" "Research and Development (R&D) [SPSD]" "0.0283965165174683"  "0.00731722222293238"
+[6,] "15"       "SPSD0188" "Research and Development (R&D) [SPSD]" "0.0306079081731019"  "0.0135891269854459" 
+[7,] "15"       "SPSD0203" "Research and Development (R&D) [SPSD]" "0.0297269307077527"  "0.0104531746041891" 
+     Ui                  rnkYi rnkZi rnkUi DR                 rnkDR
+[1,] "0.342372112178302" "1"   "1"   "1"   "1"                "1"  
+[2,] "0.264472201760789" "2"   "3"   "2"   "2.33333333333333" "2"  
+[3,] "0.139717260345051" "7"   "7"   "7"   "7"                "7"  
+[4,] "0.254205222167735" "5"   "5"   "4"   "4.66666666666667" "5"  
+[5,] "0.252849867113573" "6"   "2"   "5"   "4.33333333333333" "4"  
+[6,] "0.245356778037424" "3"   "6"   "6"   "5"                "6"  
+[7,] "0.260564236872779" "4"   "4"   "3"   "3.66666666666667" "3"  
+Your final results for Recruitment Department 15 are as follows:
+SPSD0001 SPSD0017 SPSD0203 SPSD0163 
+[1]   1  17 203 163
+[1] "#############################################################################"
+Calculations for Recruitment Department 16 
+Cycle 1 
+Cluster 1:  SPSD0080 
+Cluster 2:  SPSD0013 SPSD0028 SPSD0040 SPSD0066 SPSD0130 SPSD0186 SPSD0240 SPSD0262 SPSD0292 
+Cluster 3:  SPSD0015 SPSD0049 SPSD0059 SPSD0093 SPSD0131 SPSD0226 SPSD0230 SPSD0234 SPSD0245 SPSD0253 
+Cluster 4:  SPSD0140 
+              Yi        Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.016153151 0.2464271 0.2575629     3     3     3  3     3
+[2,] 0.348563028 0.1220231 0.9210830     1     1     1  1     1
+[3,] 0.214062160 0.1242920 0.7467881     2     2     2  2     2
+[4,] 0.007551703 0.2519032 0.2247150     4     4     4  4     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0013 SPSD0028 SPSD0040 SPSD0066 SPSD0130 SPSD0186 SPSD0240 SPSD0262 SPSD0292 
+Cluster Rank 2:  SPSD0015 SPSD0049 SPSD0059 SPSD0093 SPSD0131 SPSD0226 SPSD0230 SPSD0234 SPSD0245 SPSD0253 
+Cluster Rank 3:  SPSD0080 
+Cycle 2 
+Cluster 1:  SPSD0059 SPSD0226 SPSD0245 SPSD0253 
+Cluster 2:  SPSD0080 
+Cluster 3:  SPSD0013 SPSD0028 SPSD0066 SPSD0130 SPSD0186 SPSD0240 SPSD0262 
+Cluster 4:  SPSD0015 SPSD0040 SPSD0049 SPSD0093 SPSD0131 SPSD0230 SPSD0234 SPSD0292 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.15781533 0.09480321 0.6402709     3     2     3 2.666667     3
+[2,] 0.08103631 0.16502781 0.5132563     4     4     4 4.000000     4
+[3,] 0.32182104 0.09093901 0.8970109     1     1     1 1.000000     1
+[4,] 0.20100224 0.13236149 0.7459892     2     3     2 2.333333     2
+The selected clusters are:  3 4 1 
+Cluster Rank 1:  SPSD0013 SPSD0028 SPSD0066 SPSD0130 SPSD0186 SPSD0240 SPSD0262 
+Cluster Rank 2:  SPSD0015 SPSD0040 SPSD0049 SPSD0093 SPSD0131 SPSD0230 SPSD0234 SPSD0292 
+Cluster Rank 3:  SPSD0059 SPSD0226 SPSD0245 SPSD0253 
+Cycle 3 
+Cluster 1:  SPSD0059 SPSD0226 SPSD0245 SPSD0253 
+Cluster 2:  SPSD0013 SPSD0130 SPSD0186 SPSD0240 
+Cluster 3:  SPSD0028 SPSD0040 SPSD0066 SPSD0262 SPSD0292 
+Cluster 4:  SPSD0015 SPSD0049 SPSD0093 SPSD0131 SPSD0230 SPSD0234 
+            Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.1424782 0.09316990 0.6198200     3     3     4 3.333333     3
+[2,] 0.3054990 0.02439335 0.8860857     1     1     1 1.000000     1
+[3,] 0.2207544 0.06322243 0.7546061     2     2     2 2.000000     2
+[4,] 0.1306223 0.09316990 0.6404680     4     4     3 3.666667     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0013 SPSD0130 SPSD0186 SPSD0240 
+Cluster Rank 2:  SPSD0028 SPSD0040 SPSD0066 SPSD0262 SPSD0292 
+Cluster Rank 3:  SPSD0059 SPSD0226 SPSD0245 SPSD0253 
+Cycle 4 
+Cluster 1:  SPSD0186 
+Cluster 2:  SPSD0013 SPSD0130 SPSD0240 
+Cluster 3:  SPSD0028 SPSD0040 SPSD0066 SPSD0262 SPSD0292 
+Cluster 4:  SPSD0059 SPSD0226 SPSD0245 SPSD0253 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.04597456 0.17154968 0.3842529     4     4     4  4     4
+[2,] 0.29793161 0.05792113 0.8688204     1     1     1  1     1
+[3,] 0.27734876 0.10100723 0.8342794     2     2     2  2     2
+[4,] 0.10638996 0.10556904 0.5978686     3     3     3  3     3
+The selected clusters are:  2 3 4 
+Cluster Rank 1:  SPSD0013 SPSD0130 SPSD0240 
+Cluster Rank 2:  SPSD0028 SPSD0040 SPSD0066 SPSD0262 SPSD0292 
+Cluster Rank 3:  SPSD0059 SPSD0226 SPSD0245 SPSD0253 
+Cycle 5 
+Cluster 1:  SPSD0059 
+Cluster 2:  SPSD0013 SPSD0130 SPSD0240 
+Cluster 3:  SPSD0028 SPSD0040 SPSD0066 SPSD0262 SPSD0292 
+Cluster 4:  SPSD0226 SPSD0245 SPSD0253 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.04554071 0.17605645 0.3844565     4     4     4  4     4
+[2,] 0.30194985 0.06360549 0.8692807     1     1     1  1     1
+[3,] 0.27767553 0.11092005 0.8347214     2     2     2  2     2
+[4,] 0.07563503 0.13542804 0.5305164     3     3     3  3     3
+The selected clusters are:  2 3 4 
+Cluster Rank 1:  SPSD0013 SPSD0130 SPSD0240 
+Cluster Rank 2:  SPSD0028 SPSD0040 SPSD0066 SPSD0262 SPSD0292 
+Cluster Rank 3:  SPSD0226 SPSD0245 SPSD0253 
+Cycle 6 
+Cluster 1:  SPSD0040 SPSD0292 
+Cluster 2:  SPSD0226 SPSD0245 SPSD0253 
+Cluster 3:  SPSD0028 SPSD0066 SPSD0262 
+Cluster 4:  SPSD0013 SPSD0130 SPSD0240 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.10469165 0.15358182 0.5482275     3     3     4 3.333333     3
+[2,] 0.34648568 0.04328807 0.9282262     1     1     1 1.000000     1
+[3,] 0.19985522 0.10750727 0.7202079     2     2     2 2.000000     2
+[4,] 0.09064917 0.15358182 0.5664905     4     4     3 3.666667     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0226 SPSD0245 SPSD0253 
+Cluster Rank 2:  SPSD0028 SPSD0066 SPSD0262 
+Cluster Rank 3:  SPSD0040 SPSD0292 
+     Rcrtmntlvl RcrtmntCd  RcrtmntDprtmmt        Yi                   Zi                    Ui                  rnkYi rnkZi
+[1,] "16"       "SPSD0028" "Sales and Marketing" "0.0196703019219545" "0.017052040285049"   "0.209620459403863" "7"   "7"  
+[2,] "16"       "SPSD0040" "Sales and Marketing" "0.0320506713427798" "0.00731722222293238" "0.270823807653345" "2"   "2"  
+[3,] "16"       "SPSD0066" "Sales and Marketing" "0.0191959270744913" "0.017052040285049"   "0.20854429217744"  "8"   "8"  
+[4,] "16"       "SPSD0226" "Sales and Marketing" "0.030159489459108"  "0.0119364281995343"  "0.258551206245552" "4"   "4"  
+[5,] "16"       "SPSD0245" "Sales and Marketing" "0.0471350442088335" "0.00513737816723756" "0.32724121278603"  "1"   "1"  
+[6,] "16"       "SPSD0253" "Sales and Marketing" "0.0317406496121605" "0.00731722222293238" "0.266398279535479" "3"   "3"  
+[7,] "16"       "SPSD0262" "Sales and Marketing" "0.0212381835270617" "0.0135891269854459"  "0.21533115754279"  "6"   "6"  
+[8,] "16"       "SPSD0292" "Sales and Marketing" "0.0227311268408228" "0.0119364281995343"  "0.232518597074361" "5"   "5"  
+     rnkUi DR  rnkDR
+[1,] "7"   "7" "7"  
+[2,] "2"   "2" "2"  
+[3,] "8"   "8" "8"  
+[4,] "4"   "4" "4"  
+[5,] "1"   "1" "1"  
+[6,] "3"   "3" "3"  
+[7,] "6"   "6" "6"  
+[8,] "5"   "5" "5"  
+Your final results for Recruitment Department 16 are as follows:
+SPSD0245 SPSD0040 SPSD0253 SPSD0226 
+[1] 245  40 253 226
+[1] "#############################################################################"
+Calculations for Recruitment Department 17 
+Cycle 1 
+Cluster 1:  SPSD0004 SPSD0051 SPSD0153 SPSD0158 SPSD0233 SPSD0271 SPSD0285 
+Cluster 2:  SPSD0068 SPSD0152 SPSD0169 SPSD0199 SPSD0236 SPSD0264 SPSD0277 
+Cluster 3:  SPSD0117 SPSD0174 SPSD0283 
+Cluster 4:  SPSD0108 
+             Yi        Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.15970381 0.1157846 0.6678128     2     1     2 1.666667     2
+[2,] 0.37290025 0.1167791 0.9546956     1     2     1 1.333333     1
+[3,] 0.09527654 0.2008508 0.5201304     3     3     3 3.000000     3
+[4,] 0.01275268 0.2504728 0.2586689     4     4     4 4.000000     4
+The selected clusters are:  2 1 3 
+Cluster Rank 1:  SPSD0068 SPSD0152 SPSD0169 SPSD0199 SPSD0236 SPSD0264 SPSD0277 
+Cluster Rank 2:  SPSD0004 SPSD0051 SPSD0153 SPSD0158 SPSD0233 SPSD0271 SPSD0285 
+Cluster Rank 3:  SPSD0117 SPSD0174 SPSD0283 
+Cycle 2 
+Cluster 1:  SPSD0051 SPSD0153 SPSD0158 SPSD0285 
+Cluster 2:  SPSD0068 SPSD0152 SPSD0169 SPSD0199 SPSD0236 SPSD0264 SPSD0277 
+Cluster 3:  SPSD0117 SPSD0174 SPSD0283 
+Cluster 4:  SPSD0004 SPSD0233 SPSD0271 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.09725467 0.19343005 0.5412094     3     2     2 2.333333     2
+[2,] 0.39427925 0.09230625 0.9772266     1     1     1 1.000000     1
+[3,] 0.10061702 0.21633624 0.5324056     2     3     3 2.666667     3
+[4,] 0.03857904 0.23924243 0.4187717     4     4     4 4.000000     4
+The selected clusters are:  2 1 3 
+Cluster Rank 1:  SPSD0068 SPSD0152 SPSD0169 SPSD0199 SPSD0236 SPSD0264 SPSD0277 
+Cluster Rank 2:  SPSD0051 SPSD0153 SPSD0158 SPSD0285 
+Cluster Rank 3:  SPSD0117 SPSD0174 SPSD0283 
+Cycle 3 
+Cluster 1:  SPSD0051 SPSD0153 SPSD0158 SPSD0285 
+Cluster 2:  SPSD0068 SPSD0152 SPSD0169 SPSD0199 SPSD0236 SPSD0264 SPSD0277 
+Cluster 3:  SPSD0117 SPSD0283 
+Cluster 4:  SPSD0174 
+             Yi        Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.09680188 0.1980938 0.5441457     2     2     2  2     2
+[2,] 0.40001040 0.1407312 0.9825285     1     1     1  1     1
+[3,] 0.06871177 0.2450107 0.4519700     3     3     3  3     3
+[4,] 0.01226211 0.2762887 0.2662101     4     4     4  4     4
+The selected clusters are:  2 1 3 
+Cluster Rank 1:  SPSD0068 SPSD0152 SPSD0169 SPSD0199 SPSD0236 SPSD0264 SPSD0277 
+Cluster Rank 2:  SPSD0051 SPSD0153 SPSD0158 SPSD0285 
+Cluster Rank 3:  SPSD0117 SPSD0283 
+Cycle 4 
+Cluster 1:  SPSD0169 SPSD0199 SPSD0236 SPSD0277 
+Cluster 2:  SPSD0051 SPSD0153 SPSD0158 SPSD0285 
+Cluster 3:  SPSD0068 SPSD0152 SPSD0264 
+Cluster 4:  SPSD0117 SPSD0283 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.15371146 0.10987501 0.6528884     3     2     2 2.333333     2
+[2,] 0.35300061 0.05411494 0.9333598     1     1     1 1.000000     1
+[3,] 0.15490602 0.14519198 0.6422678     2     3     3 2.666667     3
+[4,] 0.04344118 0.20405360 0.4265481     4     4     4 4.000000     4
+The selected clusters are:  2 1 3 
+Cluster Rank 1:  SPSD0051 SPSD0153 SPSD0158 SPSD0285 
+Cluster Rank 2:  SPSD0169 SPSD0199 SPSD0236 SPSD0277 
+Cluster Rank 3:  SPSD0068 SPSD0152 SPSD0264 
+Cycle 5 
+Cluster 1:  SPSD0236 SPSD0277 
+Cluster 2:  SPSD0068 SPSD0152 SPSD0264 
+Cluster 3:  SPSD0051 SPSD0153 SPSD0158 SPSD0285 
+Cluster 4:  SPSD0169 SPSD0199 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.09444632 0.14609395 0.5278886     3     3     3  3     3
+[2,] 0.32216550 0.04348820 0.8937895     1     1     1  1     1
+[3,] 0.24020885 0.06672617 0.7819450     2     2     2  2     2
+[4,] 0.05095462 0.17531274 0.4605652     4     4     4  4     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0068 SPSD0152 SPSD0264 
+Cluster Rank 2:  SPSD0051 SPSD0153 SPSD0158 SPSD0285 
+Cluster Rank 3:  SPSD0236 SPSD0277 
+Cycle 6 
+Cluster 1:  SPSD0153 
+Cluster 2:  SPSD0051 SPSD0158 SPSD0285 
+Cluster 3:  SPSD0236 SPSD0277 
+Cluster 4:  SPSD0068 SPSD0152 SPSD0264 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.05846471 0.21995298 0.4293801     4     4     4  4     4
+[2,] 0.38368637 0.08358923 0.9708558     1     1     1  1     1
+[3,] 0.15036453 0.16919460 0.6360275     2     2     2  2     2
+[4,] 0.10160182 0.16919460 0.5925070     3     3     3  3     3
+The selected clusters are:  2 3 4 
+Cluster Rank 1:  SPSD0051 SPSD0158 SPSD0285 
+Cluster Rank 2:  SPSD0236 SPSD0277 
+Cluster Rank 3:  SPSD0068 SPSD0152 SPSD0264 
+     Rcrtmntlvl RcrtmntCd  RcrtmntDprtmmt                Yi                   Zi                    Ui                  rnkYi
+[1,] "17"       "SPSD0051" "Supply Chain and Purchasing" "0.0390480560676866" "0.00731722222293238" "0.295132550700844" "1"  
+[2,] "17"       "SPSD0068" "Supply Chain and Purchasing" "0.0238878982125884" "0.0135891269854459"  "0.228256123376526" "7"  
+[3,] "17"       "SPSD0152" "Supply Chain and Purchasing" "0.0306453890858468" "0.0104531746041891"  "0.265373332497621" "4"  
+[4,] "17"       "SPSD0158" "Supply Chain and Purchasing" "0.0241436481130879" "0.0119364281995343"  "0.234950467821744" "6"  
+[5,] "17"       "SPSD0236" "Supply Chain and Purchasing" "0.0183421457199994" "0.017052040285049"   "0.197606651053522" "8"  
+[6,] "17"       "SPSD0264" "Supply Chain and Purchasing" "0.027068647968643"  "0.0119364281995343"  "0.247717249788672" "5"  
+[7,] "17"       "SPSD0277" "Supply Chain and Purchasing" "0.0310859841091879" "0.0135891269854459"  "0.247635640815965" "3"  
+[8,] "17"       "SPSD0285" "Supply Chain and Purchasing" "0.0315209931009858" "0.00731722222293238" "0.265202147411396" "2"  
+     rnkZi rnkUi DR                 rnkDR
+[1,] "1"   "1"   "1"                "1"  
+[2,] "6"   "7"   "6.66666666666667" "7"  
+[3,] "3"   "2"   "3"                "3"  
+[4,] "4"   "6"   "5.33333333333333" "6"  
+[5,] "8"   "8"   "8"                "8"  
+[6,] "5"   "4"   "4.66666666666667" "4"  
+[7,] "7"   "5"   "5"                "5"  
+[8,] "2"   "3"   "2.33333333333333" "2"  
+Your final results for Recruitment Department 17 are as follows:
+SPSD0051 SPSD0285 SPSD0152 SPSD0264 
+[1]  51 285 152 264
+[1] "#############################################################################"
+Calculations for Recruitment Department 18 
+Cycle 1 
+Cluster 1:  SPSD0009 SPSD0086 SPSD0088 SPSD0098 SPSD0146 SPSD0251 SPSD0254 
+Cluster 2:  SPSD0023 SPSD0035 SPSD0061 SPSD0111 SPSD0122 SPSD0189 SPSD0198 SPSD0270 SPSD0281 SPSD0291 
+Cluster 3:  SPSD0050 SPSD0164 SPSD0177 
+Cluster 4:  SPSD0041 SPSD0085 SPSD0087 SPSD0123 SPSD0129 SPSD0144 SPSD0145 SPSD0165 SPSD0206 SPSD0215 SPSD0229 SPSD0231 SPSD0232 SPSD0252 SPSD0269 SPSD0290 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.12279508 0.15156457 0.5822432     3     3     3  3     3
+[2,] 0.36689461 0.06563908 0.9659510     1     1     1  1     1
+[3,] 0.06591177 0.20781534 0.4534839     4     4     4  4     4
+[4,] 0.17869492 0.13563133 0.7172543     2     2     2  2     2
+The selected clusters are:  2 4 1 
+Cluster Rank 1:  SPSD0023 SPSD0035 SPSD0061 SPSD0111 SPSD0122 SPSD0189 SPSD0198 SPSD0270 SPSD0281 SPSD0291 
+Cluster Rank 2:  SPSD0041 SPSD0085 SPSD0087 SPSD0123 SPSD0129 SPSD0144 SPSD0145 SPSD0165 SPSD0206 SPSD0215 SPSD0229 SPSD0231 SPSD0232 SPSD0252 SPSD0269 SPSD0290 
+Cluster Rank 3:  SPSD0009 SPSD0086 SPSD0088 SPSD0098 SPSD0146 SPSD0251 SPSD0254 
+Cycle 2 
+Cluster 1:  SPSD0009 SPSD0086 SPSD0088 SPSD0098 SPSD0146 SPSD0189 SPSD0254 
+Cluster 2:  SPSD0023 SPSD0035 SPSD0061 SPSD0111 SPSD0122 SPSD0198 SPSD0270 SPSD0281 SPSD0291 
+Cluster 3:  SPSD0041 SPSD0123 SPSD0165 SPSD0206 SPSD0231 SPSD0232 SPSD0269 
+Cluster 4:  SPSD0085 SPSD0087 SPSD0129 SPSD0144 SPSD0145 SPSD0215 SPSD0229 SPSD0251 SPSD0252 SPSD0290 
+            Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.1271127 0.14004257 0.5939406     3     2     4 3.000000     3
+[2,] 0.3561754 0.03259856 0.9429728     1     1     1 1.000000     1
+[3,] 0.1626024 0.14004257 0.6588054     2     3     2 2.333333     2
+[4,] 0.1085624 0.14522933 0.6013572     4     4     3 3.666667     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0023 SPSD0035 SPSD0061 SPSD0111 SPSD0122 SPSD0198 SPSD0270 SPSD0281 SPSD0291 
+Cluster Rank 2:  SPSD0041 SPSD0123 SPSD0165 SPSD0206 SPSD0231 SPSD0232 SPSD0269 
+Cluster Rank 3:  SPSD0009 SPSD0086 SPSD0088 SPSD0098 SPSD0146 SPSD0189 SPSD0254 
+Cycle 3 
+Cluster 1:  SPSD0041 SPSD0123 SPSD0165 SPSD0206 SPSD0231 SPSD0232 SPSD0269 
+Cluster 2:  SPSD0009 SPSD0086 SPSD0088 SPSD0098 SPSD0146 SPSD0254 
+Cluster 3:  SPSD0035 SPSD0111 SPSD0281 
+Cluster 4:  SPSD0023 SPSD0061 SPSD0122 SPSD0189 SPSD0198 SPSD0270 SPSD0291 
+            Yi         Zi        Ui rnkYi rnkZi rnkUi DR rnkDR
+[1,] 0.1866048 0.08185968 0.6991895     2     2     2  2     2
+[2,] 0.3479394 0.05303874 0.9372774     1     1     1  1     1
+[3,] 0.1039210 0.17116116 0.5445683     4     4     4  4     4
+[4,] 0.1164811 0.13395221 0.6100196     3     3     3  3     3
+The selected clusters are:  2 1 4 
+Cluster Rank 1:  SPSD0009 SPSD0086 SPSD0088 SPSD0098 SPSD0146 SPSD0254 
+Cluster Rank 2:  SPSD0041 SPSD0123 SPSD0165 SPSD0206 SPSD0231 SPSD0232 SPSD0269 
+Cluster Rank 3:  SPSD0023 SPSD0061 SPSD0122 SPSD0189 SPSD0198 SPSD0270 SPSD0291 
+Cycle 4 
+Cluster 1:  SPSD0023 SPSD0061 SPSD0122 SPSD0189 SPSD0198 SPSD0270 SPSD0291 
+Cluster 2:  SPSD0041 SPSD0123 SPSD0165 SPSD0206 SPSD0231 SPSD0232 SPSD0269 
+Cluster 3:  SPSD0086 SPSD0088 
+Cluster 4:  SPSD0009 SPSD0098 SPSD0146 SPSD0254 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.16657003 0.11533490 0.6737259     2     2     2 2.000000     2
+[2,] 0.37799273 0.09561779 0.9631488     1     1     1 1.000000     1
+[3,] 0.06493426 0.22125470 0.4430552     3     4     4 3.666667     4
+[4,] 0.05574447 0.20713206 0.4653850     4     3     3 3.333333     3
+The selected clusters are:  2 1 4 
+Cluster Rank 1:  SPSD0041 SPSD0123 SPSD0165 SPSD0206 SPSD0231 SPSD0232 SPSD0269 
+Cluster Rank 2:  SPSD0023 SPSD0061 SPSD0122 SPSD0189 SPSD0198 SPSD0270 SPSD0291 
+Cluster Rank 3:  SPSD0009 SPSD0098 SPSD0146 SPSD0254 
+Cycle 5 
+Cluster 1:  SPSD0009 SPSD0098 SPSD0146 SPSD0254 
+Cluster 2:  SPSD0023 SPSD0291 
+Cluster 3:  SPSD0061 SPSD0122 SPSD0189 SPSD0198 SPSD0270 
+Cluster 4:  SPSD0041 SPSD0123 SPSD0165 SPSD0206 SPSD0231 SPSD0232 SPSD0269 
+            Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.1781402 0.04027020 0.6774427     4     1     4 3.000000     3
+[2,] 0.1843155 0.05166064 0.7252085     3     3     3 3.000000     4
+[3,] 0.2659336 0.05060270 0.8247594     1     2     1 1.333333     1
+[4,] 0.2003029 0.11316099 0.7465197     2     4     2 2.666667     2
+The selected clusters are:  3 4 1 
+Cluster Rank 1:  SPSD0061 SPSD0122 SPSD0189 SPSD0198 SPSD0270 
+Cluster Rank 2:  SPSD0041 SPSD0123 SPSD0165 SPSD0206 SPSD0231 SPSD0232 SPSD0269 
+Cluster Rank 3:  SPSD0009 SPSD0098 SPSD0146 SPSD0254 
+Cycle 6 
+Cluster 1:  SPSD0009 SPSD0098 SPSD0146 SPSD0254 
+Cluster 2:  SPSD0231 SPSD0269 
+Cluster 3:  SPSD0061 SPSD0122 SPSD0189 SPSD0198 SPSD0270 
+Cluster 4:  SPSD0041 SPSD0123 SPSD0165 SPSD0206 SPSD0232 
+            Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.1865778 0.03859857 0.6912621     3     1     3 2.333333     3
+[2,] 0.1976088 0.05575349 0.7400023     2     2     2 2.000000     2
+[3,] 0.2819625 0.06057597 0.8415840     1     3     1 1.666667     1
+[4,] 0.1458224 0.08331969 0.6619607     4     4     4 4.000000     4
+The selected clusters are:  3 2 1 
+Cluster Rank 1:  SPSD0061 SPSD0122 SPSD0189 SPSD0198 SPSD0270 
+Cluster Rank 2:  SPSD0231 SPSD0269 
+Cluster Rank 3:  SPSD0009 SPSD0098 SPSD0146 SPSD0254 
+Cycle 7 
+Cluster 1:  SPSD0098 SPSD0146 SPSD0254 
+Cluster 2:  SPSD0009 SPSD0189 
+Cluster 3:  SPSD0061 SPSD0122 SPSD0198 SPSD0270 
+Cluster 4:  SPSD0231 SPSD0269 
+             Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.16736856 0.04947030 0.6656331     3     2     3 2.666667     3
+[2,] 0.24791689 0.04796341 0.8034561     2     1     2 1.666667     1
+[3,] 0.27774372 0.05952246 0.8325033     1     3     1 1.666667     2
+[4,] 0.06495381 0.13192079 0.4903441     4     4     4 4.000000     4
+The selected clusters are:  2 3 1 
+Cluster Rank 1:  SPSD0009 SPSD0189 
+Cluster Rank 2:  SPSD0061 SPSD0122 SPSD0198 SPSD0270 
+Cluster Rank 3:  SPSD0098 SPSD0146 SPSD0254 
+Cycle 8 
+Cluster 1:  SPSD0098 SPSD0146 SPSD0254 
+Cluster 2:  SPSD0009 
+Cluster 3:  SPSD0189 
+Cluster 4:  SPSD0061 SPSD0122 SPSD0198 SPSD0270 
+            Yi         Zi        Ui rnkYi rnkZi rnkUi       DR rnkDR
+[1,] 0.2659658 0.06294103 0.8098746     1     1     1 1.000000     1
+[2,] 0.1837321 0.08431553 0.7320239     3     2     3 2.666667     3
+[3,] 0.1098726 0.13797086 0.5679751     4     4     4 4.000000     4
+[4,] 0.2395933 0.12794007 0.7967162     2     3     2 2.333333     2
+The selected clusters are:  1 4 2 
+Cluster Rank 1:  SPSD0098 SPSD0146 SPSD0254 
+Cluster Rank 2:  SPSD0061 SPSD0122 SPSD0198 SPSD0270 
+Cluster Rank 3:  SPSD0009 
+     Rcrtmntlvl RcrtmntCd  RcrtmntDprtmmt                  Yi                   Zi                    Ui                  rnkYi
+[1,] "18"       "SPSD0009" "Systems and Operations Sector" "0.0200966939730582" "0.017052040285049"   "0.211480968303151" "8"  
+[2,] "18"       "SPSD0061" "Systems and Operations Sector" "0.0289022089560272" "0.00731722222293238" "0.248692237887173" "4"  
+[3,] "18"       "SPSD0098" "Systems and Operations Sector" "0.0512428057554179" "0.00367320611787799" "0.342372112178302" "1"  
+[4,] "18"       "SPSD0122" "Systems and Operations Sector" "0.0237688602493698" "0.0119364281995343"  "0.227754404270957" "6"  
+[5,] "18"       "SPSD0146" "Systems and Operations Sector" "0.0374249575199732" "0.00731722222293238" "0.291354861723345" "3"  
+[6,] "18"       "SPSD0198" "Systems and Operations Sector" "0.02323817612859"   "0.0135891269854459"  "0.222209201397779" "7"  
+[7,] "18"       "SPSD0254" "Systems and Operations Sector" "0.037953711214383"  "0.00731722222293238" "0.292127456771781" "2"  
+[8,] "18"       "SPSD0270" "Systems and Operations Sector" "0.0286644630851088" "0.00731722222293238" "0.247536395652341" "5"  
+     rnkZi rnkUi DR                 rnkDR
+[1,] "8"   "8"   "8"                "8"  
+[2,] "2"   "4"   "3.33333333333333" "4"  
+[3,] "1"   "1"   "1"                "1"  
+[4,] "6"   "6"   "6"                "6"  
+[5,] "3"   "3"   "3"                "3"  
+[6,] "7"   "7"   "7"                "7"  
+[7,] "4"   "2"   "2.66666666666667" "2"  
+[8,] "5"   "5"   "5"                "5"  
+Your final results for Recruitment Department 18 are as follows:
+SPSD0098 SPSD0254 SPSD0146 SPSD0061 
+[1]  98 254 146  61
